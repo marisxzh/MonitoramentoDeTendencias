@@ -20,14 +20,14 @@ struct Manchete {
 
 class AnalisadorDeNoticias {
 
-    private:
+
+    public:
 
         // vetor para armazenar as manchetes, como um banco de dados em memória
         std::vector<Manchete> manchetes;
 
         // Dicionários
 
-        
         // armazena a frequência global de cada palavra
         std::unordered_map<std::string, int> frequenciaGlobal;
         // array de 5 dicionarios, cada posição representa uma janela temporal do texto
@@ -36,17 +36,6 @@ class AnalisadorDeNoticias {
         // Índice Invertido
         // associa uma palavra a uma lista de IDs de manchetes onde ela aparece, para facilitar a busca e contagem de palavras em cada manchete
         std::unordered_map<std::string, std::vector<int>> indiceInvertido;
-
-
-        // função para limpar o texto, removendo pontuação e convertendo para minúsculas, além de filtrar palavras irrelevantes, para preparar as manchetes para análise
-        void limparTexto(std::string &linha, size_t posicaoInicial, std::vector<std::string> &palavraDeSaida);
-
-
-    public:
-
-        // método para ler as manchetes do arquivo, processar e armazenar as informações necessárias para análise
-        void processarArquivo(const std::string nomeArquivo);
-
 
         // aplica a fórmua matemática de crescimento comparando a janela 4 com a 0, para identificar as palavras que estão crescendo mais rapidamente, e armazena as 100 palavras com maior crescimento em um heap mínimo, para facilitar a recuperação das palavras mais emergentes
         void gerarTop100Emergentes();

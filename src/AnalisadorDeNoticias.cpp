@@ -6,79 +6,6 @@
 
 using namespace std;
 
-void AnalisadorDeNoticias::limparTexto(string& linha, size_t posicaoInicial, vector<string>& palavrasDeSaida){
-
-    string palavraAtual = "";
-
-    for (size_t i = posicaoInicial; i < linha.size(); ++i) {
-
-        char c = linha[i];
-
-        // se o caractere for alfabético, adiciona à palavra atual
-        if (isalpha(c)) {
-
-            // converte para minúscula
-            palavraAtual += tolower(c);
-             
-        } else {
-
-            if(palavraAtual.length() > 3){
-                // adiciona a palavra ao vetor de saída
-                palavrasDeSaida.push_back(palavraAtual);
-            }
-
-            palavraAtual = ""; // limpa a palavra atual para a próxima
-        
-        }
-        
-    }
-
-    if (palavraAtual.length() > 3) {
-        // adiciona a última palavra ao vetor de saída, se houver
-        palavrasDeSaida.push_back(palavraAtual);
-    }
-}
-
-
-
-void AnalisadorDeNoticias::processarArquivo(string nomeArquivo) {
-    ifstream arquivo(nomeArquivo);
-    string linha;
-    int idAtual = 0;
-    int tamanhoJanela = 200000; 
-
-    cout << "Lendo arquivo. Isso pode demorar um pouco...\n";
-
-    getline(arquivo, linha); // Pula cabeçalho
-
-    while (getline(arquivo, linha)) {
-        size_t posicaoVirgula = linha.find(',');
-        if (posicaoVirgula == string::npos) continue;
-        
-        vector<string> palavras;
-        limparTexto(linha, posicaoVirgula + 1, palavras);
-        
-        unordered_set<string> palavrasUnicas(palavras.begin(), palavras.end());
-
-        manchetes.push_back({idAtual, palavras});
-
-        int janelaAtual = idAtual / tamanhoJanela;
-        if (janelaAtual > 4) janelaAtual = 4;
-
-        for (const string& palavra : palavrasUnicas) {
-            frequenciaGlobal[palavra]++;
-            frequenciaJanelas[janelaAtual][palavra]++;
-            indiceInvertido[palavra].push_back(idAtual);
-        }
-
-        idAtual++;
-        
-        if(idAtual % 100000 == 0) {
-            cout << "Processadas " << idAtual << " linhas...\n";
-        }
-    }
-    cout << "Leitura concluida! Total de linhas: " << idAtual << "\n";
-}
 
 void AnalisadorDeNoticias::gerarTop100Emergentes() {
     // Inicialização do MinHeap
@@ -101,7 +28,7 @@ void AnalisadorDeNoticias::gerarTop100Emergentes() {
     for (int i = 0; i < top100.size(); i++) {
         cout << i + 1 << ". " << top100[i].palavra << " (Taxa: " << top100[i].pontuacao << ")\n";
     }
-}
+};
 
 void AnalisadorDeNoticias::encontrarTop10Similares(int idAlvo) {
     if (idAlvo >= manchetes.size()) {
@@ -150,4 +77,4 @@ void AnalisadorDeNoticias::encontrarTop10Similares(int idAlvo) {
                  << " | Similaridade Jaccard: " << top10[i].pontuacao << "\n";
         }
     }
-}
+};
