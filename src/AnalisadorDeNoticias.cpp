@@ -1,37 +1,24 @@
 #include <fstream>
+#include <iostream>
+#include <iomanip>
 #include <algorithm>
-#include <cctype>
+#include <unordered_set>
+#include <sstream>
 
 #include "AnalisadorDeNoticias.hpp"
 
 using namespace std;
 
-
-void AnalisadorDeNoticias::gerarTop100Emergentes() {
-    // Inicialização do MinHeap
-    MinHeap top100Heap(100);
-
-    for (const auto& item : frequenciaGlobal) {
-        string palavra = item.first;
-        float freq1 = frequenciaJanelas[0][palavra]; 
-        float freq5 = frequenciaJanelas[4][palavra]; 
-        
-        float crescimento = (freq5 - freq1) / (freq1 + 1.0);
-        
-        top100Heap.insert(palavra, crescimento);
+// Reconstrói o texto original da manchete a partir dos tokens
+static string reconstruirTexto(const vector<string>& palavras) {
+    string resultado;
+    for (int i = 0; i < (int)palavras.size(); i++) {
+        if (i > 0) resultado += " ";
+        resultado += palavras[i];
     }
+    return resultado;
+}
 
-    // Busca do vetor já ordenado pelo Heap
-    vector<HeapNode> top100 = top100Heap.getSorted();
-
-    cout << "\n--- TOP 100 PALAVRAS EMERGENTES ---\n";
-    for (int i = 0; i < top100.size(); i++) {
-        cout << i + 1 << ". " << top100[i].palavra << " (Taxa: " << top100[i].pontuacao << ")\n";
-    }
-};
-
-
-//?Pedro
 void AnalisadorDeNoticias::gerarTop100Frequentes() {
     MinHeap top100Heap(100);
 
@@ -41,58 +28,146 @@ void AnalisadorDeNoticias::gerarTop100Frequentes() {
 
     vector<HeapNode> top100 = top100Heap.getSorted();
 
-    cout << "\n--- TOP 100 PALAVRAS MAIS FREQUENTES ---\n";
+    cout << "\n[TOP-100 PALAVRAS MAIS FREQUENTES]\n";
+    cout << string(60, '-') << "\n";
+    cout << left << setw(6)  << "RANK"
+         << setw(30) << "PALAVRA"
+         << setw(10) << "FREQUENCIA" << "\n";
+    cout << string(60, '-') << "\n";
+
     for (int i = 0; i < (int)top100.size(); i++) {
-        cout << i + 1 << ". " << top100[i].palavra
-             << " (" << (int)top100[i].pontuacao << " ocorrências)\n";
+        cout << left << setw(6)  << i + 1
+             << setw(30) << top100[i].palavra
+             << setw(10) << (int)top100[i].pontuacao << "\n";
+    }
+}
+
+void AnalisadorDeNoticias::gerarTop100Emergentes() {
+    MinHeap top100Heap(100);
+
+    for (const auto& item : frequenciaGlobal) {
+        const string& palavra = item.first;
+        float freq1 = frequenciaJanelas[0].count(palavra) ? frequenciaJanelas[0].at(palavra) : 0;
+        float freq5 = frequenciaJanelas[4].count(palavra) ? frequenciaJanelas[4].at(palavra) : 0;
+        float crescimento = (freq5 - freq1) / (freq1 + 1.0f);
+        top100Heap.insert(palavra, crescimento);
+    }
+
+    vector<HeapNode> top100 = top100Heap.getSorted();
+
+    cout << "\n[TOP-100 PALAVRAS EMERGENTES - C(p) = (FJ5 - FJ1) / (FJ1 + 1)]\n";
+    cout << string(60, '-') << "\n";
+    cout << left << setw(6)  << "RANK"
+         << setw(25) << "PALAVRA"
+         << setw(12) << "C(p)"
+         << setw(10) << "FREQ_J1"
+         << setw(10) << "FREQ_J5" << "\n";
+    cout << string(60, '-') << "\n";
+
+    for (int i = 0; i < (int)top100.size(); i++) {
+        const string& palavra = top100[i].palavra;
+        int freq1 = frequenciaJanelas[0].count(palavra) ? frequenciaJanelas[0].at(palavra) : 0;
+        int freq5 = frequenciaJanelas[4].count(palavra) ? frequenciaJanelas[4].at(palavra) : 0;
+
+        cout << left  << setw(6)  << i + 1
+             << setw(25) << palavra
+             << fixed << setprecision(4) << setw(12) << top100[i].pontuacao
+             << setw(10) << freq1
+             << setw(10) << freq5 << "\n";
     }
 }
 
 void AnalisadorDeNoticias::encontrarTop10Similares(int idAlvo) {
-    if (idAlvo >= manchetes.size()) {
-        cout << "Manchete invalida!\n";
+    if (idAlvo >= (int)manchetes.size()) {
+        cout << "\n[ANALISE DE SIMILARIDADE - JACCARD]\n";
+        cout << string(60, '-') << "\n";
+        cout << "  Manchete invalida!\n";
         return;
     }
 
     const vector<string>& palavrasAlvo = manchetes[idAlvo].palavras;
     unordered_set<string> conjuntoAlvo(palavrasAlvo.begin(), palavrasAlvo.end());
 
+    // Conta intersecção via índice invertido
     unordered_map<int, int> contagemIntersecao;
-
     for (const string& palavra : conjuntoAlvo) {
-        for (int outroId : indiceInvertido[palavra]) {
-            if (outroId != idAlvo) {
-                contagemIntersecao[outroId]++;
+        if (indiceInvertido.count(palavra)) {
+            for (int outroId : indiceInvertido.at(palavra)) {
+                if (outroId != idAlvo) contagemIntersecao[outroId]++;
             }
         }
     }
 
-    // MinHeap para garantir a ordenação parcial dos 10 melhores
+    // Calcula Jaccard e guarda os que passam do threshold
     MinHeap top10Heap(10);
-
     for (const auto& item : contagemIntersecao) {
-        int outroId = item.first;
+        int outroId   = item.first;
         int intersecao = item.second;
-
-        unordered_set<string> outroConjunto(manchetes[outroId].palavras.begin(), manchetes[outroId].palavras.end());
-        
-        int tamanhoUniao = conjuntoAlvo.size() + outroConjunto.size() - intersecao;
+        unordered_set<string> outroConjunto(manchetes[outroId].palavras.begin(),
+                                            manchetes[outroId].palavras.end());
+        int tamanhoUniao = (int)conjuntoAlvo.size() + (int)outroConjunto.size() - intersecao;
         float jaccard = (float)intersecao / tamanhoUniao;
-
-        if (jaccard >= 0.70) {
+        if (jaccard >= 0.25f) {  // threshold menor para mostrar resultados úteis
             top10Heap.insert(to_string(outroId), jaccard);
         }
     }
 
     vector<HeapNode> top10 = top10Heap.getSorted();
 
-    cout << "\n--- TOP SIMILARES (ALVO: MANCHETE " << idAlvo << ") ---\n";
+    // Coleta palavras emergentes do top100 para cruzamento
+    MinHeap emergentesHeap(100);
+    for (const auto& item : frequenciaGlobal) {
+        const string& palavra = item.first;
+        float freq1 = frequenciaJanelas[0].count(palavra) ? frequenciaJanelas[0].at(palavra) : 0;
+        float freq5 = frequenciaJanelas[4].count(palavra) ? frequenciaJanelas[4].at(palavra) : 0;
+        emergentesHeap.insert(palavra, (freq5 - freq1) / (freq1 + 1.0f));
+    }
+    vector<HeapNode> emergentes = emergentesHeap.getSorted();
+    unordered_set<string> palavrasEmergentes;
+    for (const auto& e : emergentes) palavrasEmergentes.insert(e.palavra);
+
+    // --- Impressão ---
+    cout << "\n[ANALISE DE SIMILARIDADE - JACCARD]\n";
+    cout << string(60, '-') << "\n";
+    cout << "  Manchete alvo (indice " << idAlvo << "): "
+         << reconstruirTexto(palavrasAlvo) << "\n\n";
+
+    cout << left << setw(8)  << "SCORE"
+         << setw(10) << "INDICE"
+         << "TOKENS\n";
+    cout << string(60, '-') << "\n";
+
     if (top10.empty()) {
-        cout << "Nenhuma manchete com Jaccard >= 0.70 foi encontrada.\n";
+        cout << "  Nenhuma manchete similar encontrada.\n";
     } else {
-        for (int i = 0; i < top10.size(); i++) {
-            cout << "Manchete Linha " << top10[i].palavra 
-                 << " | Similaridade Jaccard: " << top10[i].pontuacao << "\n";
+        for (const auto& no : top10) {
+            int id = stoi(no.palavra);
+            cout << fixed << setprecision(4) << setw(8)  << no.pontuacao
+                 << setw(10) << id
+                 << reconstruirTexto(manchetes[id].palavras) << "\n";
         }
     }
-};
+
+    // Cruzamento: palavras emergentes presentes nas manchetes similares
+    unordered_set<string> palavrasNicho;
+    for (const auto& no : top10) {
+        int id = stoi(no.palavra);
+        for (const string& p : manchetes[id].palavras) palavrasNicho.insert(p);
+    }
+    // inclui também as palavras da manchete alvo
+    for (const string& p : palavrasAlvo) palavrasNicho.insert(p);
+
+    cout << "\n[PALAVRAS EMERGENTES NO NICHO]\n";
+    cout << string(60, '-') << "\n";
+
+    vector<string> keywords;
+    for (const string& p : palavrasNicho) {
+        if (palavrasEmergentes.count(p)) keywords.push_back(p);
+    }
+
+    if (keywords.empty()) {
+        cout << "  Nenhuma palavra emergente neste nicho.\n";
+    } else {
+        for (const string& kw : keywords) cout << "  - " << kw << "\n";
+    }
+}
