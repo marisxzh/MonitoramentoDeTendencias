@@ -19,6 +19,7 @@ static string reconstruirTexto(const vector<string>& palavras) {
     return resultado;
 }
 
+// Função que exibe as 100 palavras mais frequentes do corpus em ordem decrescente.
 void AnalisadorDeNoticias::gerarTop100Frequentes() {
     MinHeap top100Heap(100);
 
@@ -42,6 +43,7 @@ void AnalisadorDeNoticias::gerarTop100Frequentes() {
     }
 }
 
+// Função que exibe as 100 palavras com maior taxa de crescimento entre a janela 1 e a janela 5.
 void AnalisadorDeNoticias::gerarTop100Emergentes() {
     MinHeap top100Heap(100);
 
@@ -76,6 +78,12 @@ void AnalisadorDeNoticias::gerarTop100Emergentes() {
              << setw(10) << freq5 << "\n";
     }
 }
+
+
+/// Esta função precisa ser revisada.
+// O cruzamento entre similaridade Jaccard e palavras emergentes não funciona
+// corretamente quando a manchete alvo pertence a janelas mais antigas (ex: janela 1),
+// pois as palavras emergentes são calculadas sempre entre janela 1 e janela 5.
 
 void AnalisadorDeNoticias::encontrarTop10Similares(int idAlvo) {
     if (idAlvo >= (int)manchetes.size()) {

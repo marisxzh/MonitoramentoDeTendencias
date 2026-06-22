@@ -24,19 +24,13 @@ int main(int argc, char* argv[]) {
     string nomeArquivo = (argc >= 2) ? argv[1] : "dados/input.csv";
     int linhaConsulta  = (argc >= 3) ? stoi(argv[2]) : 2;
 
-    ofstream saida("resultados.txt");
+    ofstream saida("output.txt");
     if (!saida.is_open()) {
-        cerr << "Erro ao criar resultados.txt\n";
+        cerr << "Erro ao criar output.txt\n";
         return 1;
     }
 
     // Cabeçalho do relatório
-    saida << string(60, '=') << "\n";
-    saida << "  NEWS TRENDS MONITOR - RELATORIO DE ANALISE\n";
-    saida << "  Dataset: A Million News Headlines (ABC Australia)\n";
-    saida << "  CEFET-MG - AEDS\n";
-    saida << string(60, '=') << "\n";
-
     cout << "=== Monitoramento de Tendencias ===\n";
     cout << "Arquivo : " << nomeArquivo << "\n";
     cout << "Consulta: linha " << linhaConsulta << "\n\n";
@@ -86,7 +80,7 @@ int main(int argc, char* argv[]) {
 
     long long total = duration_cast<milliseconds>(t7 - t0).count();
     cout << "\nTempo total : " << total << "ms\n";
-    cout << "Resultado   : resultados.txt\n";
+    cout << "Resultado   : output.txt\n";
 
     saida.close();
     return 0;
