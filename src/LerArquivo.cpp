@@ -31,18 +31,19 @@ void LerArquivo::lerTexto(const string& nomeArquivo, AnalisadorDeNoticias& anali
         
         vector<string> palavras;
         
-        // CORRIGIDO: Chamamos a função através da classe ProcessadorTexto
+        // chamando a função através da classe ProcessadorTexto
         ProcessadorTexto::limparTexto(linha, posicaoVirgula + 1, palavras);
         
         unordered_set<string> palavrasUnicas(palavras.begin(), palavras.end());
 
-        // CORRIGIDO: Acessamos o vetor 'manchetes' de dentro do objeto analisador
+        // !!! precisa de melhoria, isso que esta "atrasando" o processamento
+        // acessando o vetor 'manchetes' de dentro do objeto analisador
         analisador.manchetes.push_back({idAtual, palavras});
 
         int janelaAtual = idAtual / tamanhoJanela;
         if (janelaAtual > 4) janelaAtual = 4;
 
-        // CORRIGIDO: Preenchemos os dicionários que estão dentro do objeto analisador
+        // preenchendo os dicionários que estão dentro do objeto analisador
         for (const string& palavra : palavrasUnicas) {
             analisador.frequenciaGlobal[palavra]++;
             analisador.frequenciaJanelas[janelaAtual][palavra]++;
