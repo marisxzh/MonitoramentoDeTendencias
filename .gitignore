@@ -1,0 +1,5 @@
+# Ignora a pasta de builds 
+build/
+
+# Ignora a pasta de dados
+dados/

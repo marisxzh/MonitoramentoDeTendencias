@@ -30,6 +30,24 @@ void AnalisadorDeNoticias::gerarTop100Emergentes() {
     }
 };
 
+
+//?Pedro
+void AnalisadorDeNoticias::gerarTop100Frequentes() {
+    MinHeap top100Heap(100);
+
+    for (const auto& item : frequenciaGlobal) {
+        top100Heap.insert(item.first, (float)item.second);
+    }
+
+    vector<HeapNode> top100 = top100Heap.getSorted();
+
+    cout << "\n--- TOP 100 PALAVRAS MAIS FREQUENTES ---\n";
+    for (int i = 0; i < (int)top100.size(); i++) {
+        cout << i + 1 << ". " << top100[i].palavra
+             << " (" << (int)top100[i].pontuacao << " ocorrências)\n";
+    }
+}
+
 void AnalisadorDeNoticias::encontrarTop10Similares(int idAlvo) {
     if (idAlvo >= manchetes.size()) {
         cout << "Manchete invalida!\n";

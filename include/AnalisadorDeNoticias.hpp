@@ -40,6 +40,10 @@ class AnalisadorDeNoticias {
         // aplica a fórmua matemática de crescimento comparando a janela 4 com a 0, para identificar as palavras que estão crescendo mais rapidamente, e armazena as 100 palavras com maior crescimento em um heap mínimo, para facilitar a recuperação das palavras mais emergentes
         void gerarTop100Emergentes();
 
+
+        //?Pedro
+        void gerarTop100Frequentes();
+
         // calcula o indice de Jaccard para encontrar as nóticias mais similares com a do ID informado pelo usuário
         void encontrarTop10Similares(int idAlvo);
 

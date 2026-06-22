@@ -18,8 +18,11 @@ int main(int argc, char* argv[]) {
     // lendo o arquivo e preenchendo os dados no objeto analisador, para preparar as informações para as próximas análises
     LerArquivo::lerTexto(nomeArquivo, analisador);
     
+    //?Pedro
+    analisador.gerarTop100Frequentes();
     analisador.gerarTop100Emergentes();
     analisador.encontrarTop10Similares(linhaConsulta);
+
 
     return 0;
 }
