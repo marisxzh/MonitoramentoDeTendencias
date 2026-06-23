@@ -106,12 +106,15 @@ void AnalisadorDeNoticias::encontrarTop10Similares(int idAlvo) {
     // ---------------------------------------------------------------
     unordered_map<int, int> contagemIntersecao;
 
+    // le palavra por palavra da manchete alvo, e para cada palavra, pega a lista de IDs de manchetes que contém essa palavra.
     for (const string& palavra : conjuntoAlvo) {
         // pega a lista de manchetes que contêm essa palavra
         // auto -> descobre o tipo necessário automaticamente (no caso, std::unordered_map<string, vector<int>>::iterator it)
         auto it = indiceInvertido.find(palavra);
+        // se a palavra não estiver no índice invertido, ignora
         if (it == indiceInvertido.end()) continue;
 
+        // se for encontrada, aponta para um par composto da palavra(alvo) e o vetor que contem todos os ids das manchetes que contém essa palavra
         for (int outroId : it->second) {
             if (outroId != idAlvo) {
                 contagemIntersecao[outroId]++;
@@ -123,30 +126,37 @@ void AnalisadorDeNoticias::encontrarTop10Similares(int idAlvo) {
     // |A ∩ B| = contagemIntersecao[id]
     // |A ∪ B| = |A| + |B| - |A ∩ B|  (fórmula da inclusão-exclusão)
     const float THRESHOLD = 0.30f;
+    // limita para os 10 mais similares
     MinHeap top10Heap(10);
 
+
     for (const auto& item : contagemIntersecao) {
+        // item.first = id da manchete candidata
         int outroId    = item.first;
+        // item.second = valor que está associado à chave
         int intersecao = item.second;
 
         // monta o conjunto da manchete candidata para calcular |B|
         unordered_set<string> conjuntoCandidato(
+            // ver do inicio ao fim do vetor de palavras limpas da manchete candidata
             manchetes[outroId].palavras.begin(),
             manchetes[outroId].palavras.end()
         );
 
-        int tamanhoUniao = (int)conjuntoAlvo.size()
-                         + (int)conjuntoCandidato.size()
-                         - intersecao;
+        // fórmula para calcular o tamanho da união dos conjuntos A e B
+        int tamanhoUniao = (int)conjuntoAlvo.size() + (int)conjuntoCandidato.size() - intersecao;
 
+        // calcula o índice de Jaccard
         float jaccard = (float)intersecao / (float)tamanhoUniao;
 
+        // se o jaccard for maior que o threshold, insere no heap mínimo para manter os 10 maiores
         if (jaccard >= THRESHOLD) {
             // guardamos o id como string porque o HeapNode armazena string
             top10Heap.insert(to_string(outroId), jaccard);
         }
     }
 
+    // organiza o vetor do heap em ordem decrescente de similaridade, para exibir do mais similar para o menos similar
     vector<HeapNode> top10 = top10Heap.getSorted();
 
     // imprimir as manchetes mais similares
@@ -167,23 +177,13 @@ void AnalisadorDeNoticias::encontrarTop10Similares(int idAlvo) {
         }
     }
 
-    // ---------------------------------------------------------------
-    // ETAPA 5: cruzamento com palavras emergentes (keywords do nicho)
-    //
-    // Coletamos todas as palavras presentes na manchete alvo E nas
-    // manchetes similares — esse é o "nicho" temático.
-    // Em seguida, verificamos quais dessas palavras estão no Top-100
-    // de emergentes (já calculado por gerarTop100Emergentes e salvo
-    // no atributo top100Emergentes).
-    //
-    // Isso mostra quais tendências temporais estão influenciando
-    // esse grupo de manchetes.
-    // ---------------------------------------------------------------
 
-    // monta o conjunto de todas as palavras do nicho
+    // cria uma tabela hash vazia para armazenar as palavras da manchete alvo
+    // depois faz um loop pelas 10 notícias mais parecidas e adiciona todas as palavras dessas notícias na tabela hash
     unordered_set<string> palavrasDoNicho;
     for (const string& p : palavrasAlvo) palavrasDoNicho.insert(p);
     for (const auto& no : top10) {
+        // converte a palavra do heap (que é o id da manchete) para inteiro
         int id = stoi(no.palavra);
         for (const string& p : manchetes[id].palavras) palavrasDoNicho.insert(p);
     }
