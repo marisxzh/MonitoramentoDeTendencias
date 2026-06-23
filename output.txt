@@ -1,9 +1,9 @@
 
 [SUMARIO]
 ------------------------------------------------------------
-  Total de manchetes : 1244184
-  Janelas temporais  : 5 (aprox. 248836 manchetes cada)
-  Manchete alvo      : indice 2
+  Total de manchetes : 1244185
+  Janelas temporais  : 5 (aprox. 248837 manchetes cada)
+  Manchete alvo      : indice 28
 
 [TOP-100 PALAVRAS MAIS FREQUENTES]
 ------------------------------------------------------------
@@ -25,7 +25,7 @@ RANK  PALAVRA                       FREQUENCIA
 14    australian                    13640     
 15    sydney                        13211     
 16    plan                          12994     
-17    death                         12769     
+17    death                         12770     
 18    water                         12746     
 19    into                          12469     
 20    crash                         12374     
@@ -148,13 +148,13 @@ RANK  PALAVRA                  C(p)        FREQ_J1   FREQ_J5
 32    ardern                   158.0000    0         158       
 33    astrazeneca              157.0000    0         157       
 34    markle                   157.0000    0         157       
-35    instagram                156.0000    0         156       
-36    aleppo                   156.0000    0         156       
-37    djokovic                 156.0000    0         156       
+35    aleppo                   156.0000    0         156       
+36    djokovic                 156.0000    0         156       
+37    instagram                156.0000    0         156       
 38    steven                   153.0000    0         153       
 39    rohingya                 152.0000    0         152       
-40    fiona                    148.0000    0         148       
-41    assange                  148.0000    0         148       
+40    assange                  148.0000    0         148       
+41    fiona                    148.0000    0         148       
 42    jacinda                  144.0000    0         144       
 43    duterte                  144.0000    0         144       
 44    fracking                 138.0000    0         138       
@@ -192,17 +192,17 @@ RANK  PALAVRA                  C(p)        FREQ_J1   FREQ_J5
 76    padley                   94.0000     0         94        
 77    donald                   93.1290     30        2917      
 78    distancing               93.0000     0         93        
-79    youtube                  92.0000     0         92        
+79    episode                  92.0000     2         278       
 80    airbnb                   92.0000     0         92        
-81    episode                  92.0000     2         278       
+81    youtube                  92.0000     0         92        
 82    dutton                   91.3333     2         276       
 83    antony                   91.0000     0         91        
 84    jarryd                   89.0000     0         89        
 85    marcus                   88.5000     1         178       
-86    wong                     88.0000     0         88        
+86    lasker                   88.0000     0         88        
 87    winston                  88.0000     0         88        
-88    transgender              88.0000     1         177       
-89    lasker                   88.0000     0         88        
+88    wong                     88.0000     0         88        
+89    transgender              88.0000     1         177       
 90    happens                  87.0000     1         175       
 91    huawei                   86.0000     0         86        
 92    naplan                   86.0000     0         86        
@@ -217,20 +217,20 @@ RANK  PALAVRA                  C(p)        FREQ_J1   FREQ_J5
 
 [ANALISE DE SIMILARIDADE - JACCARD]
 ------------------------------------------------------------
-  Manchete alvo (indice 2): calls infrastructure protection summit
+  Manchete alvo (indice 28): council chief executive fails secure position
 
 SCORE   INDICE    TOKENS
 ------------------------------------------------------------
-0.4000  280910    calls water summit
-0.4000  693644    calls koala summit
-0.4000  112454    calls poster protection
-0.4000  793491    calls heritage protection
-0.4000  12492     calls better infrastructure
-0.3333  407681    govt calls submissions infrastructure
-0.3333  498073    calls update heritage protection
-0.3333  533471    calls cruise ship infrastructure
-0.3333  640660    report calls koala protection
-0.3333  372654    want calls summit volunteers
+0.4286  35462     council seeks chief executive
+0.3750  80175     doubts over council executive position
+0.3750  775941    cullen chief executive sheepmeat council
+0.3750  203480    smith fails secure council spot
+0.3750  227057    council chief executive accused fraud
+0.3750  156235    land council sacks chief executive
+0.3750  721115    cullen chief executive sheepmeat council
+0.3333  264734    meeting calls council chief executive quit
+0.3333  79251     council executive
+0.3333  108586    council planning chief executive payout talks
 
 [PALAVRAS EMERGENTES NO NICHO]
 ------------------------------------------------------------

@@ -22,7 +22,7 @@ static void imprimirTempo(const string& etapa, long long ms) {
 
 int main(int argc, char* argv[]) {
     string nomeArquivo = (argc >= 2) ? argv[1] : "dados/input.csv";
-    int linhaConsulta  = (argc >= 3) ? stoi(argv[2]) : 2;
+    int linhaConsulta  = (argc >= 3) ? stoi(argv[2]) : 28;
 
     ofstream saida("output.txt");
     if (!saida.is_open()) {
