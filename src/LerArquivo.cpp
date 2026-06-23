@@ -85,10 +85,10 @@ void LerArquivo::lerTexto(const string& nomeArquivo, AnalisadorDeNoticias& anali
         idAtual++;
 
         if (idAtual % 100000 == 0) {
-            cout << "Processadas " << idAtual << " linhas...\n";
+            cout << "Processadas " << idAtual << " linhas...\r" << flush;
         }
     }
 
     arquivo.close();
-    cout << "Leitura concluida! Total: " << idAtual << " linhas.\n";
+    cout << "\r                              \r" << "Leitura concluida! Total: " << idAtual << " linhas.\n" << flush;
 }
