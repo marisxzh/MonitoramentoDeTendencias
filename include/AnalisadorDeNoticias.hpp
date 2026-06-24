@@ -26,16 +26,6 @@ class AnalisadorDeNoticias {
         // vetor para armazenar as manchetes, como um banco de dados em memória
         std::vector<Manchete> manchetes;
 
-        // Dicionários
-
-        //?PEDRO
-        /*
-        // armazena a frequência global de cada palavra
-        std::unordered_map<std::string, int> frequenciaGlobal;
-        // array de 5 dicionarios, cada posição representa uma janela temporal do texto
-        std::unordered_map<std::string, int> frequenciaJanelas[5]; 
-        */
-
         // Struct única para evitar múltiplos lookups na tabela Hash
         struct Estatisticas {
             int freqGlobal = 0;
