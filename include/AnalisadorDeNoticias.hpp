@@ -28,11 +28,25 @@ class AnalisadorDeNoticias {
 
         // Dicionários
 
+        //?PEDRO
+        /*
         // armazena a frequência global de cada palavra
         std::unordered_map<std::string, int> frequenciaGlobal;
         // array de 5 dicionarios, cada posição representa uma janela temporal do texto
         std::unordered_map<std::string, int> frequenciaJanelas[5]; 
+        */
 
+        // Struct única para evitar múltiplos lookups na tabela Hash
+        struct Estatisticas {
+            int freqGlobal = 0;
+            int freqJanela[5] = {0};
+        };
+
+        // Um único dicionário substitui os 6 antigos!
+        std::unordered_map<std::string, Estatisticas> dicionario;
+
+        //?fim pedro
+        
         // Índice Invertido
         // associa uma palavra a uma lista de IDs de manchetes onde ela aparece, para facilitar a busca e contagem de palavras em cada manchete
         std::unordered_map<std::string, std::vector<int>> indiceInvertido;

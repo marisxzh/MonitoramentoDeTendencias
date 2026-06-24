@@ -1,21 +1,8 @@
 
 [ANALISE DE SIMILARIDADE - JACCARD]
 ------------------------------------------------------------
-  Manchete alvo (indice 28): council chief executive fails secure position
+  Manchete alvo (indice 28): [ chief council executive fails position secure ]
 
-SCORE   INDICE    TOKENS
+[RESULTADOS DA BUSCA - TOP 10 SIMILARES]
 ------------------------------------------------------------
-0.4286  35462     council seeks chief executive
-0.3750  203480    smith fails secure council spot
-0.3750  775940    cullen chief executive sheepmeat council
-0.3750  156235    land council sacks chief executive
-0.3750  721114    cullen chief executive sheepmeat council
-0.3750  80175     doubts over council executive position
-0.3750  227057    council chief executive accused fraud
-0.3333  79251     council executive
-0.3333  264734    meeting calls council chief executive quit
-0.3333  249897    magistrate clears woocoo council chief executive
-
-[PALAVRAS EMERGENTES NO NICHO]
-------------------------------------------------------------
-  Nenhuma palavra emergente neste nicho.
+  Nenhuma manchete similar encontrada com Jaccard >= 0.70.

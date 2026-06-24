@@ -3,6 +3,7 @@
 #include <unordered_set>
 #include <vector>
 #include <string>
+#include <algorithm> //?pedro
 
 #include "LerArquivo.hpp"
 #include "AnalisadorDeNoticias.hpp"
@@ -67,10 +68,12 @@ void LerArquivo::lerTexto(const string& nomeArquivo, AnalisadorDeNoticias& anali
 
         ProcessadorTexto::limparTexto(linha, posicaoVirgula + 1, palavras);
 
-        unordered_set<string> palavrasUnicas(palavras.begin(), palavras.end());
+        //?Pedro
+        /*unordered_set<string> palavrasUnicas(palavras.begin(), palavras.end());
 
         // move(): transfere o vetor em vez de copiar
         analisador.manchetes.push_back({(int)idAtual, std::move(palavras)});
+
 
         // Clamp no 4: o resto da divisão inteira cai na última janela
         int janelaAtual = (int)(idAtual / tamanhoJanela);
@@ -81,6 +84,29 @@ void LerArquivo::lerTexto(const string& nomeArquivo, AnalisadorDeNoticias& anali
             analisador.frequenciaJanelas[janelaAtual][palavra]++;
             analisador.indiceInvertido[palavra].push_back((int)idAtual);
         }
+        */
+        // 1. Ordena o vetor e remove as palavras duplicadas na própria memória!
+        // (Isso mata o gargalo de criar "unordered_sets" atoa)
+        sort(palavras.begin(), palavras.end());
+        palavras.erase(unique(palavras.begin(), palavras.end()), palavras.end());
+
+        // Clamp no 4: o resto da divisão inteira cai na última janela
+        int janelaAtual = (int)(idAtual / tamanhoJanela);
+        if (janelaAtual > 4) janelaAtual = 4;
+
+        // 2. Itera sobre o próprio vetor de palavras (que agora não tem duplicatas)
+        for (const string& palavra : palavras) {
+            // Acessa o dicionário unificado uma ÚNICA vez por palavra!
+            analisador.dicionario[palavra].freqGlobal++;
+            analisador.dicionario[palavra].freqJanela[janelaAtual]++;
+            
+            analisador.indiceInvertido[palavra].push_back((int)idAtual);
+        }
+
+        // 3. move(): transfere o vetor APÓS usá-lo, para evitar cópias desnecessárias
+        analisador.manchetes.push_back({(int)idAtual, std::move(palavras)});
+
+        //?fim pedro
 
         idAtual++;
 
