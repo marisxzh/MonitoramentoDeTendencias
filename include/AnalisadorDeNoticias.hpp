@@ -45,6 +45,10 @@ class AnalisadorDeNoticias {
         // pelo cruzamento de palavras emergentes na análise de similaridade
         std::vector<HeapNode> top100Emergentes;
 
+        // set de emergentes pré-montado para cruzamento em O(1)
+        // evita reconstruir o set a cada título consultado
+        std::unordered_set<std::string> setEmergentes;
+
         // aplica a fórmua matemática de crescimento comparando a janela 4 com a 0, para identificar as palavras que estão crescendo mais rapidamente, e armazena as 100 palavras com maior crescimento em um heap mínimo, para facilitar a recuperação das palavras mais emergentes
         void gerarTop100Emergentes();
 
@@ -54,6 +58,10 @@ class AnalisadorDeNoticias {
 
         // calcula o indice de Jaccard para encontrar as nóticias mais similares com a do ID informado pelo usuário
         void encontrarTop10Similares(int idAlvo);
+
+        // lê um arquivo .txt com títulos de manchetes (um por linha, sem tokenizar),
+        // tokeniza cada título e lista as manchetes mais similares do corpus para cada um
+        void encontrarSimilaresPorTitulos(const std::string& arquivoTxt, std::ostream& saida);
 
 
 };

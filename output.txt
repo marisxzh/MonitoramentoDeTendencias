@@ -1,8 +1,2669 @@
 
-[ANALISE DE SIMILARIDADE - JACCARD]
-------------------------------------------------------------
-  Manchete alvo (indice 28): [ chief council executive fails position secure ]
+[ANALISE DE SIMILARIDADE POR ARQUIVO DE TITULOS]
+======================================================================
 
-[RESULTADOS DA BUSCA - TOP 10 SIMILARES]
-------------------------------------------------------------
-  Nenhuma manchete similar encontrada com Jaccard >= 0.70.
+Titulo 1: indonesia approves qld governments jakarta trade office
+Tokens : [ approves governments indonesia jakarta office trade ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    807053  approves governments indonesia jakarta office trade
+        Keywords emergentes: (nenhuma)
+2       0.5000    792923  jakarta office trade
+        Keywords emergentes: (nenhuma)
+3       0.4286    792984  jakarta office rural trade
+        Keywords emergentes: (nenhuma)
+4       0.3750    792965  government jakarta office open trade
+        Keywords emergentes: (nenhuma)
+5       0.3750    925901  barnett jakarta office retains trade
+        Keywords emergentes: (nenhuma)
+6       0.3750    905456  closes government jakarta office trade
+        Keywords emergentes: (nenhuma)
+7       0.3750    925969  jakarta office open remain trade
+        Keywords emergentes: (nenhuma)
+8       0.3750    925941  fights hold jakarta office trade
+        Keywords emergentes: (nenhuma)
+9       0.3333    905773  australias close jakarta office trade western
+        Keywords emergentes: (nenhuma)
+10      0.3333    905690  importance jakarta office phil trade turtle
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 2: ombudsman inquiry tafe executive redundancy
+Tokens : [ executive inquiry ombudsman redundancy tafe ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1112698 executive inquiry ombudsman redundancy tafe
+        Keywords emergentes: (nenhuma)
+2       0.4000    866217  inquiry tafe
+        Keywords emergentes: (nenhuma)
+3       0.3333    712162  criticises inquiry ombudsman
+        Keywords emergentes: (nenhuma)
+4       0.2857    334691  hold inquiry ombudsman toowoomba
+        Keywords emergentes: (nenhuma)
+5       0.2500    540250  become clearer packages redundancy tafe
+        Keywords emergentes: (nenhuma)
+6       0.2500    446888  inquiry redundancy support told used
+        Keywords emergentes: (nenhuma)
+7       0.2500    522550  defrauded inquiry kennel tafe told
+        Keywords emergentes: (nenhuma)
+8       0.2500    777062  executive faces health inquiry payroll
+        Keywords emergentes: (nenhuma)
+9       0.2500    460679  enquiries ombudsman redundancy rising says
+        Keywords emergentes: (nenhuma)
+10      0.2500    236788  education inquiry tafe union wants
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 3: dunning in trouble after debut dismissal
+Tokens : [ after debut dismissal dunning trouble ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    514900  after debut dismissal dunning trouble
+        Keywords emergentes: (nenhuma)
+2       0.2857    200322  after cleared dunning rays
+        Keywords emergentes: (nenhuma)
+3       0.2857    222279  after cook debut thrilled
+        Keywords emergentes: (nenhuma)
+4       0.2500    899452  after loss newcastle parramatta trouble
+        Keywords emergentes: (nenhuma)
+5       0.2500    297239  after beattie cooktown stranded trouble
+        Keywords emergentes: (nenhuma)
+6       0.2500    81884   after cahill debut delighted socceroos
+        Keywords emergentes: (nenhuma)
+7       0.2500    949670  after bangladesh declares pakistan trouble
+        Keywords emergentes: (nenhuma)
+8       0.2500    754423  after debut feeling tomic unstoppable
+        Keywords emergentes: tomic 
+9       0.2500    689277  after debut nervous proud tamou
+        Keywords emergentes: (nenhuma)
+10      0.2222    1003004 after indies positive start trouble west
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 4: commissioners son pleads guilty to drug rap
+Tokens : [ commissioners drug guilty pleads ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    610602  commissioners drug guilty pleads
+        Keywords emergentes: (nenhuma)
+2       0.6000    589088  drug guilty making pleads
+        Keywords emergentes: (nenhuma)
+3       0.6000    98667   charges drug guilty pleads
+        Keywords emergentes: (nenhuma)
+4       0.6000    486767  drug guilty pleads smuggling
+        Keywords emergentes: (nenhuma)
+5       0.6000    974578  drug guilty offences pleads
+        Keywords emergentes: (nenhuma)
+6       0.6000    798690  drug explosion guilty pleads
+        Keywords emergentes: (nenhuma)
+7       0.5000    705648  drug focarelli guilty pleads trafficking
+        Keywords emergentes: (nenhuma)
+8       0.5000    612594  dealer drug guilty high pleads
+        Keywords emergentes: (nenhuma)
+9       0.5000    630087  dealing drug granny guilty pleads
+        Keywords emergentes: (nenhuma)
+10      0.5000    547573  charges drug eaton guilty pleads
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 5: valuable machinery stolen from construction site
+Tokens : [ construction from machinery site stolen valuable ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    347092  construction from machinery site stolen valuable
+        Keywords emergentes: (nenhuma)
+2       0.5714    278745  construction equipment from site stolen
+        Keywords emergentes: (nenhuma)
+3       0.3750    329723  building copper from site stolen
+        Keywords emergentes: (nenhuma)
+4       0.3750    314804  construction from protest scenes site
+        Keywords emergentes: (nenhuma)
+5       0.3750    545915  farm from machinery rugby stolen
+        Keywords emergentes: (nenhuma)
+6       0.3333    845383  construction death falls from site sydney
+        Keywords emergentes: (nenhuma)
+7       0.3000    1010547 after construction dies falling from melbourne site
+        Keywords emergentes: (nenhuma)
+8       0.3000    833762  construction from mayor removed site statue wants
+        Keywords emergentes: (nenhuma)
+9       0.3000    839901  belgrade bomb construction from removed site world
+        Keywords emergentes: (nenhuma)
+10      0.3000    1052083 construction fall from killed perth site worker
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 6: afl announces gold coast draft concessions
+Tokens : [ announces coast concessions draft gold ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    393172  announces coast concessions draft gold
+        Keywords emergentes: (nenhuma)
+2       0.5000    165158  announces coast gold plans
+        Keywords emergentes: (nenhuma)
+3       0.3750    175177  announces beattie coast gold hospital site
+        Keywords emergentes: (nenhuma)
+4       0.3750    1177668 announces assistance coast gold package suns
+        Keywords emergentes: (nenhuma)
+5       0.3333    1065668 changing coast draft gold life rookie suns
+        Keywords emergentes: (nenhuma)
+6       0.3333    269008  coast gold join
+        Keywords emergentes: (nenhuma)
+7       0.3333    754044  coast gold stay
+        Keywords emergentes: (nenhuma)
+8       0.3333    1189565 cheerleaders coast gold
+        Keywords emergentes: (nenhuma)
+9       0.3333    1243186 coast gold then
+        Keywords emergentes: (nenhuma)
+10      0.3333    216091  coast gold return
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 7: sports betting companies lure addicts with dubious practices
+Tokens : [ addicts betting companies dubious lure practices sports with ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    978013  addicts betting companies dubious lure practices sports with
+        Keywords emergentes: (nenhuma)
+2       0.2222    1153468 betting sportsbet with
+        Keywords emergentes: (nenhuma)
+3       0.2000    1044081 betting losses rise sports
+        Keywords emergentes: (nenhuma)
+4       0.2000    772487  betting over talks with
+        Keywords emergentes: (nenhuma)
+5       0.2000    850268  companies meets union with
+        Keywords emergentes: (nenhuma)
+6       0.2000    711051  latest moos sports with
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 8: country hour foreign investment china will crozier
+Tokens : [ china country crozier foreign hour investment will ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    841785  china country crozier foreign hour investment will
+        Keywords emergentes: (nenhuma)
+2       0.6250    841784  china country difficult foreign hour investment
+        Keywords emergentes: (nenhuma)
+3       0.3333    77508   china film foreign investment lifts
+        Keywords emergentes: (nenhuma)
+4       0.3333    1224620 china foreign freeze investment relations
+        Keywords emergentes: (nenhuma)
+5       0.3000    972907  findlaysons foreign investment taylor will wine
+        Keywords emergentes: (nenhuma)
+6       0.3000    1158757 australia china foreign investment means what
+        Keywords emergentes: (nenhuma)
+7       0.2857    951207  country hour
+        Keywords emergentes: (nenhuma)
+8       0.2857    788937  country hour
+        Keywords emergentes: (nenhuma)
+9       0.2857    790092  country hour
+        Keywords emergentes: (nenhuma)
+10      0.2857    789587  country hour
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 9: new stamps highlight work of indigenous artists bede tungutalum
+Tokens : [ artists bede highlight indigenous stamps tungutalum work ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1102978 artists bede highlight indigenous stamps tungutalum work
+        Keywords emergentes: (nenhuma)
+2       0.5000    269730  artists exhibition highlight indigenous work
+        Keywords emergentes: (nenhuma)
+3       0.2727    1105928 artists indigenous language music save through work
+        Keywords emergentes: (nenhuma)
+4       0.2727    793272  artists display indigenous paris rooftop shows work
+        Keywords emergentes: (nenhuma)
+5       0.2727    1233912 artists fight indigenous pilbara rights their work
+        Keywords emergentes: (nenhuma)
+6       0.2500    1123431 artists indigenous snubbed
+        Keywords emergentes: (nenhuma)
+7       0.2500    732924  artists indigenous prize
+        Keywords emergentes: (nenhuma)
+8       0.2500    998334  artists here indigenous moad right showcased work young
+        Keywords emergentes: (nenhuma)
+9       0.2222    191143  committee indigenous police work
+        Keywords emergentes: (nenhuma)
+10      0.2222    656785  artists help indigenous will
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 10: gibernau takes pole for chinese grand prix
+Tokens : [ chinese gibernau grand pole prix takes ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    160432  chinese gibernau grand pole prix takes
+        Keywords emergentes: (nenhuma)
+2       0.5000    37289   czech grand pole prix rossi takes
+        Keywords emergentes: (nenhuma)
+3       0.5000    32872   biaggi german grand pole prix takes
+        Keywords emergentes: (nenhuma)
+4       0.5000    110715  czech gibernau grand pole prix storms
+        Keywords emergentes: (nenhuma)
+5       0.5000    962775  grand hamilton home pole prix takes
+        Keywords emergentes: (nenhuma)
+6       0.4444    883443  austrian felipe grand massa pole prix takes
+        Keywords emergentes: (nenhuma)
+7       0.4286    311245  grand hamilton pole prix
+        Keywords emergentes: (nenhuma)
+8       0.4286    100683  gibernau pole provisional takes
+        Keywords emergentes: (nenhuma)
+9       0.3750    387434  grand italian prix rossi takes
+        Keywords emergentes: (nenhuma)
+10      0.3750    166156  european grand heidfeld pole prix
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 11: rusty causes polling drama
+Tokens : [ causes drama polling rusty ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    766703  causes drama polling rusty
+        Keywords emergentes: (nenhuma)
+2       0.2500    1036879 australia blackout causes dairy drama south
+        Keywords emergentes: (nenhuma)
+3       0.2000    782877  polling push
+        Keywords emergentes: (nenhuma)
+4       0.2000    116460  polling starts
+        Keywords emergentes: (nenhuma)
+5       0.2000    644523  rusty season
+        Keywords emergentes: (nenhuma)
+6       0.2000    995318  closures polling
+        Keywords emergentes: (nenhuma)
+7       0.2000    849039  drama road
+        Keywords emergentes: (nenhuma)
+8       0.2000    427047  drama fire
+        Keywords emergentes: (nenhuma)
+9       0.2000    814317  polling remote
+        Keywords emergentes: (nenhuma)
+10      0.2000    693518  beans rusty
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 12: man threatened to kill magistrate court hears
+Tokens : [ court hears kill magistrate threatened ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    530103  court hears kill magistrate threatened
+        Keywords emergentes: (nenhuma)
+2       0.5714    183980  bouncer court hears hookes kill threatened
+        Keywords emergentes: (nenhuma)
+3       0.5714    523482  court hears hostess kill passenger threatened
+        Keywords emergentes: (nenhuma)
+4       0.4286    128257  court hears hookes kill threat
+        Keywords emergentes: (nenhuma)
+5       0.4286    45963   claims court hears kill workmate
+        Keywords emergentes: (nenhuma)
+6       0.4286    140226  challenged court hears kill stepson
+        Keywords emergentes: (nenhuma)
+7       0.4286    1023872 back court kill parents threatened
+        Keywords emergentes: (nenhuma)
+8       0.4000    343765  kill threatened
+        Keywords emergentes: (nenhuma)
+9       0.3750    135231  court gatto hears kill offered veniamin
+        Keywords emergentes: (nenhuma)
+10      0.3750    564701  bikie court kill mother tells threatened
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 13: neighbours film fire in canberras north
+Tokens : [ canberras film fire neighbours north ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1101247 canberras film fire neighbours north
+        Keywords emergentes: (nenhuma)
+2       0.3750    1022154 canberras destroyed fire house north suspicious
+        Keywords emergentes: (nenhuma)
+3       0.3333    1004267 canberras north shot
+        Keywords emergentes: (nenhuma)
+4       0.3333    533652  canberras north schools
+        Keywords emergentes: (nenhuma)
+5       0.3333    755452  burning fire north
+        Keywords emergentes: (nenhuma)
+6       0.3333    125746  fire north opens
+        Keywords emergentes: (nenhuma)
+7       0.3333    821558  coast fire north
+        Keywords emergentes: (nenhuma)
+8       0.2857    868921  burnt fire north queensland
+        Keywords emergentes: (nenhuma)
+9       0.2857    1023451 canberras fire pialligo west
+        Keywords emergentes: (nenhuma)
+10      0.2857    431122  canola crop fire north
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 14: four face court over gangland murder plot charges
+Tokens : [ charges court face four gangland murder over plot ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    95895   charges court face four gangland murder over plot
+        Keywords emergentes: (nenhuma)
+2       0.6250    297126  charges court face murder over
+        Keywords emergentes: (nenhuma)
+3       0.5556    166479  attempted charges court face murder over
+        Keywords emergentes: (nenhuma)
+4       0.5556    183797  charges court drug face four over
+        Keywords emergentes: (nenhuma)
+5       0.5556    175936  charges court drug face four over
+        Keywords emergentes: (nenhuma)
+6       0.5000    557187  court face murder over
+        Keywords emergentes: (nenhuma)
+7       0.5000    511292  charges court face murder
+        Keywords emergentes: (nenhuma)
+8       0.5000    158978  court face murder over
+        Keywords emergentes: (nenhuma)
+9       0.5000    352124  charges court face murder
+        Keywords emergentes: (nenhuma)
+10      0.5000    940986  charges counsellors court drug face four over
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 15: greens' super trawler motion voted down
+Tokens : [ down greens motion super trawler voted ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    723298  down greens motion super trawler voted
+        Keywords emergentes: (nenhuma)
+2       0.5000    293285  down greens mill motion pulp voted
+        Keywords emergentes: (nenhuma)
+3       0.4286    115217  greens super trawler want
+        Keywords emergentes: (nenhuma)
+4       0.3750    466607  bill down greens mining voted
+        Keywords emergentes: (nenhuma)
+5       0.3750    112873  death greens ship super trawler
+        Keywords emergentes: (nenhuma)
+6       0.3333    115747  down fears minister plays super trawler
+        Keywords emergentes: (nenhuma)
+7       0.3333    708888  super trawler
+        Keywords emergentes: (nenhuma)
+8       0.3333    703538  greens over pressure step super trawler
+        Keywords emergentes: (nenhuma)
+9       0.3000    935615  down liverpool motion plains protection senate voted
+        Keywords emergentes: (nenhuma)
+10      0.2857    652576  greens marriage motion
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 16: report says illiteracy threat to health
+Tokens : [ health illiteracy report says threat ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    392864  health illiteracy report says threat
+        Keywords emergentes: (nenhuma)
+2       0.4000    716429  health report
+        Keywords emergentes: (nenhuma)
+3       0.3750    319495  buried doctor health kimberley report says
+        Keywords emergentes: (nenhuma)
+4       0.3750    911938  asbestos from health says service threat
+        Keywords emergentes: (nenhuma)
+5       0.3333    840570  expert health says
+        Keywords emergentes: (nenhuma)
+6       0.3333    1125734 dictated doctor glowing health report says trump
+        Keywords emergentes: trump 
+7       0.3333    758551  card health report
+        Keywords emergentes: (nenhuma)
+8       0.3333    477709  health released report
+        Keywords emergentes: (nenhuma)
+9       0.3333    943219  activists afghanistan female report says threat under
+        Keywords emergentes: (nenhuma)
+10      0.3333    786194  health mixed report
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 17: cardinal george pell expected in court for brief hearing
+Tokens : [ brief cardinal court expected george hearing pell ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1101325 brief cardinal court expected george hearing pell
+        Keywords emergentes: (nenhuma)
+2       0.5000    1118752 arrives cardinal court george pell
+        Keywords emergentes: (nenhuma)
+3       0.5000    1125721 cardinal directions george hearing pell
+        Keywords emergentes: (nenhuma)
+4       0.5000    1091122 appear court george hearing pell
+        Keywords emergentes: (nenhuma)
+5       0.5000    1157071 arrives cardinal court george pell
+        Keywords emergentes: (nenhuma)
+6       0.5000    1158529 cardinal court george pell sentenced
+        Keywords emergentes: (nenhuma)
+7       0.5000    1118753 arriving cardinal court george pell
+        Keywords emergentes: (nenhuma)
+8       0.5000    1125592 cardinal court decision george pell
+        Keywords emergentes: (nenhuma)
+9       0.4444    1157213 court george hearing pell presentencing returns
+        Keywords emergentes: (nenhuma)
+10      0.4000    1192245 appeal cardinal court george high pell verdict
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 18: minister hears push for western bypass
+Tokens : [ bypass hears minister push western ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    228577  bypass hears minister push western
+        Keywords emergentes: (nenhuma)
+2       0.5000    503579  gulgong hears minister push
+        Keywords emergentes: (nenhuma)
+3       0.4000    605245  minister western
+        Keywords emergentes: (nenhuma)
+4       0.3750    780135  college funds hears minister push revamp
+        Keywords emergentes: (nenhuma)
+5       0.3750    601323  flood hears highway minister proofing push
+        Keywords emergentes: (nenhuma)
+6       0.3333    13073   push tourism western
+        Keywords emergentes: (nenhuma)
+7       0.3333    510807  bypass byron push
+        Keywords emergentes: (nenhuma)
+8       0.3333    1016279 crackdown hears justice minister push violence wangaratta
+        Keywords emergentes: (nenhuma)
+9       0.3000    987023  bypass hears highway horsham panel planning submissions western
+        Keywords emergentes: (nenhuma)
+10      0.2857    120892  pests push tackle western
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 19: nigel dodds speaks to pacific beat
+Tokens : [ beat dodds nigel pacific speaks ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    810849  beat dodds nigel pacific speaks
+        Keywords emergentes: (nenhuma)
+2       0.6000    843851  beat pacific speaks
+        Keywords emergentes: (nenhuma)
+3       0.5000    812934  beat brij pacific speaks
+        Keywords emergentes: (nenhuma)
+4       0.5000    829469  beat pacific pollard speaks
+        Keywords emergentes: (nenhuma)
+5       0.5000    773253  beat lestari pacific speaks
+        Keywords emergentes: (nenhuma)
+6       0.5000    818722  anderson beat pacific speaks
+        Keywords emergentes: (nenhuma)
+7       0.5000    789897  beat kearney pacific speaks
+        Keywords emergentes: (nenhuma)
+8       0.5000    776121  beat pacific peter speaks
+        Keywords emergentes: (nenhuma)
+9       0.5000    764328  beat pacific rintoul speaks
+        Keywords emergentes: (nenhuma)
+10      0.5000    792707  aaradhna beat pacific speaks
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 20: lynagh to be released
+Tokens : [ lynagh released ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    691587  lynagh released
+        Keywords emergentes: (nenhuma)
+2       0.3333    321853  released tevez
+        Keywords emergentes: (nenhuma)
+3       0.3333    700580  released richman
+        Keywords emergentes: (nenhuma)
+4       0.3333    692003  blindness from lynagh partial released suffering
+        Keywords emergentes: (nenhuma)
+5       0.3333    755911  offers released
+        Keywords emergentes: (nenhuma)
+6       0.3333    165154  guidelines released
+        Keywords emergentes: (nenhuma)
+7       0.3333    922618  released video
+        Keywords emergentes: (nenhuma)
+8       0.3333    691927  after from hospital lynagh released stroke
+        Keywords emergentes: (nenhuma)
+9       0.3333    749941  released results
+        Keywords emergentes: (nenhuma)
+10      0.3333    213972  agca released
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 21: eidsvold cattle drive regional queensland
+Tokens : [ cattle drive eidsvold queensland regional ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1019962 cattle drive eidsvold queensland regional
+        Keywords emergentes: (nenhuma)
+2       0.5000    991914  cattle drive eidsvold hamilton
+        Keywords emergentes: (nenhuma)
+3       0.4286    991922  cattle drive eidsvold historic planned
+        Keywords emergentes: (nenhuma)
+4       0.4286    992026  cattle drive eidsvold peter webster
+        Keywords emergentes: (nenhuma)
+5       0.3333    887530  cattle drive icpa
+        Keywords emergentes: (nenhuma)
+6       0.3333    973092  cattle queensland theft
+        Keywords emergentes: (nenhuma)
+7       0.3333    820765  cattle eidsvold genetics
+        Keywords emergentes: (nenhuma)
+8       0.3333    1065475 cattle projections queensland
+        Keywords emergentes: (nenhuma)
+9       0.3333    1175205 queensland regional unemployment
+        Keywords emergentes: (nenhuma)
+10      0.3333    1168881 late queensland regional
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 22: bushfire wirrabara forest flinders ranges
+Tokens : [ bushfire flinders forest ranges wirrabara ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    693642  bushfire flinders forest ranges wirrabara
+        Keywords emergentes: (nenhuma)
+2       1.0000    694581  bushfire flinders forest ranges wirrabara
+        Keywords emergentes: (nenhuma)
+3       0.3333    852463  aerial bangor bomber bushfire flinders ranges southern
+        Keywords emergentes: (nenhuma)
+4       0.3333    315969  flinders jolt ranges
+        Keywords emergentes: (nenhuma)
+5       0.3333    652672  bushfire gawler ranges
+        Keywords emergentes: (nenhuma)
+6       0.3333    637636  flinders holidays ranges
+        Keywords emergentes: (nenhuma)
+7       0.3333    870429  after bushfire forest jobs replanted sawmill wirrabara
+        Keywords emergentes: (nenhuma)
+8       0.3333    968723  flinders ranges wheat
+        Keywords emergentes: (nenhuma)
+9       0.3333    496935  dying forest wirrabara
+        Keywords emergentes: (nenhuma)
+10      0.2857    948101  elderly flinders missing ranges
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 23: from graveyard shift scandal roils brazil meat sector chi
+Tokens : [ brazil from graveyard meat roils scandal sector shift ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1074848 brazil from graveyard meat roils scandal sector shift
+        Keywords emergentes: (nenhuma)
+2       0.2222    791431  dysfunctional meat sector
+        Keywords emergentes: (nenhuma)
+3       0.2000    1243102 education from recover sector
+        Keywords emergentes: (nenhuma)
+4       0.2000    477135  benefits brazil detention from
+        Keywords emergentes: (nenhuma)
+5       0.2000    1074987 brazilian explained meat scandal
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 24: riki stephens gold coast drug overdose victorian footballer dies
+Tokens : [ coast dies drug footballer gold overdose riki stephens victorian ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1053982 coast dies drug footballer gold overdose riki stephens victorian
+        Keywords emergentes: (nenhuma)
+2       0.3333    1053117 coast critical drug gold myster overdose remains
+        Keywords emergentes: (nenhuma)
+3       0.3333    1053596 after coma drug footballer overdose unknown victorian
+        Keywords emergentes: (nenhuma)
+4       0.3000    752281  beach coast dies gold
+        Keywords emergentes: (nenhuma)
+5       0.3000    1027585 coast drug gold increases
+        Keywords emergentes: (nenhuma)
+6       0.3000    545195  coast dies fire gold
+        Keywords emergentes: (nenhuma)
+7       0.3000    550013  coast dies gold visionary
+        Keywords emergentes: (nenhuma)
+8       0.3000    768639  coast dies gold stabbed
+        Keywords emergentes: (nenhuma)
+9       0.3000    504100  coast dies gold surfer
+        Keywords emergentes: (nenhuma)
+10      0.2727    440614  dies drug overdose suspected teen
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 25: retail trading hours report
+Tokens : [ hours report retail trading ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    630904  hours report retail trading
+        Keywords emergentes: (nenhuma)
+2       0.6000    564839  christmas hours retail trading
+        Keywords emergentes: (nenhuma)
+3       0.6000    443048  decision hours retail trading
+        Keywords emergentes: (nenhuma)
+4       0.5000    1105250 hours play retail state trading
+        Keywords emergentes: (nenhuma)
+5       0.5000    482457  extended hours retail stymied trading
+        Keywords emergentes: (nenhuma)
+6       0.5000    403338  extend hours promises retail trading
+        Keywords emergentes: (nenhuma)
+7       0.5000    131275  hours minister responsible retail trading
+        Keywords emergentes: (nenhuma)
+8       0.5000    468810  extending hours opponents retail trading
+        Keywords emergentes: (nenhuma)
+9       0.4286    403550  alan carpenter hours premier retail trading
+        Keywords emergentes: (nenhuma)
+10      0.4286    606823  behind bundaberg hours retail trading well
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 26: helen and elaine trifelly on abc tropical north
+Tokens : [ elaine helen north trifelly tropical ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1049998 elaine helen north trifelly tropical
+        Keywords emergentes: (nenhuma)
+2       0.3333    1057048 attenborough north tropical
+        Keywords emergentes: (nenhuma)
+3       0.3333    278422  north queensland tropical
+        Keywords emergentes: (nenhuma)
+4       0.2857    284719  coast lingers north tropical
+        Keywords emergentes: (nenhuma)
+5       0.2857    1051974 drew leanne north tropical
+        Keywords emergentes: (nenhuma)
+6       0.2857    1049999 exhibition first helen trifelly
+        Keywords emergentes: (nenhuma)
+7       0.2857    1058995 baynton north tropical wendy
+        Keywords emergentes: (nenhuma)
+8       0.2857    1057939 branch fiona north tropical
+        Keywords emergentes: fiona 
+9       0.2857    1051357 andrew guthrie north tropical
+        Keywords emergentes: (nenhuma)
+10      0.2857    1046735 bowen ignite north tropical
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 27: queensland university students outback cattle stations viola
+Tokens : [ cattle outback queensland stations students university viola ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1212175 cattle outback queensland stations students university viola
+        Keywords emergentes: (nenhuma)
+2       0.3333    758151  cattle cost count queensland stations
+        Keywords emergentes: (nenhuma)
+3       0.3333    1089015 horses outback students sydney university
+        Keywords emergentes: (nenhuma)
+4       0.3333    1196684 booms cattle outback population stations
+        Keywords emergentes: (nenhuma)
+5       0.3333    1224285 indigenous medicine queensland students university
+        Keywords emergentes: (nenhuma)
+6       0.3000    1229399 calls international plan queensland students university
+        Keywords emergentes: (nenhuma)
+7       0.3000    1201309 cattle outback queensland route stock thousands
+        Keywords emergentes: (nenhuma)
+8       0.3000    1065984 cattle cuts heavy outback rainfall stations
+        Keywords emergentes: (nenhuma)
+9       0.3000    622113  about compose music outback queensland students
+        Keywords emergentes: (nenhuma)
+10      0.3000    1066415 cattle heatwave queensland simulated study university
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 28: port arthur hotel was roaring in the post convict 1920s
+Tokens : [ arthur convict hotel port post roaring ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1191569 arthur convict hotel port post roaring
+        Keywords emergentes: (nenhuma)
+2       0.3750    85903   arthur convict port referred site
+        Keywords emergentes: (nenhuma)
+3       0.3333    993213  archaeological arthur convict past port unearthing
+        Keywords emergentes: (nenhuma)
+4       0.3333    1026948 archaeological arthur convict pastimes port uncovered
+        Keywords emergentes: (nenhuma)
+5       0.3000    1033504 arthur howards laws port post researchers work
+        Keywords emergentes: (nenhuma)
+6       0.2727    1137469 artefact arthur convict finds port rays reveal unexpected
+        Keywords emergentes: (nenhuma)
+7       0.2500    627787  arthur damage port storm
+        Keywords emergentes: (nenhuma)
+8       0.2500    629316  arthur port video youtube
+        Keywords emergentes: youtube 
+9       0.2500    1023541 arthur been port years
+        Keywords emergentes: (nenhuma)
+10      0.2500    112595  arthur port recalls tapes
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 29: pedestrian seriously injured in morning accident
+Tokens : [ accident injured morning pedestrian seriously ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    510821  accident injured morning pedestrian seriously
+        Keywords emergentes: (nenhuma)
+2       0.8000    420721  accident injured pedestrian seriously
+        Keywords emergentes: (nenhuma)
+3       0.5000    383492  accident injured pedestrian tram
+        Keywords emergentes: (nenhuma)
+4       0.5000    188516  accident forklift injured seriously
+        Keywords emergentes: (nenhuma)
+5       0.5000    757665  injured pedestrian reversing seriously
+        Keywords emergentes: (nenhuma)
+6       0.5000    19671   accident injured seriously warwick
+        Keywords emergentes: (nenhuma)
+7       0.5000    56800   accident injured seriously woman
+        Keywords emergentes: (nenhuma)
+8       0.4286    1002299 accident dead injured narrabri seriously
+        Keywords emergentes: (nenhuma)
+9       0.4286    555702  accident injured passenger seriously weekend
+        Keywords emergentes: (nenhuma)
+10      0.4286    430191  accident ballarat injured seriously three
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 30: bali nine seek financial help
+Tokens : [ bali financial help nine seek ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    166237  bali financial help nine seek
+        Keywords emergentes: (nenhuma)
+2       0.5000    797246  farmers financial help seek
+        Keywords emergentes: (nenhuma)
+3       0.4286    160091  bali death nine police seek
+        Keywords emergentes: (nenhuma)
+4       0.4286    246245  bali deal help nine prisoner
+        Keywords emergentes: (nenhuma)
+5       0.4000    779007  financial help
+        Keywords emergentes: (nenhuma)
+6       0.3750    205059  bali charges extradite lawyers nine seek
+        Keywords emergentes: (nenhuma)
+7       0.3750    303208  bali expert govt help nine witness
+        Keywords emergentes: (nenhuma)
+8       0.3750    212982  bali clemency nine seek vaile would
+        Keywords emergentes: (nenhuma)
+9       0.3750    1219382 affected farmers financial help seek storm
+        Keywords emergentes: (nenhuma)
+10      0.3750    250861  counsellors financial growers help more seek
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 31: fossil law will help unveil past
+Tokens : [ fossil help past unveil will ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    108614  fossil help past unveil will
+        Keywords emergentes: (nenhuma)
+2       0.2857    562766  dogs help resilience will
+        Keywords emergentes: (nenhuma)
+3       0.2857    656785  artists help indigenous will
+        Keywords emergentes: (nenhuma)
+4       0.2857    683703  help lifesaver there will
+        Keywords emergentes: (nenhuma)
+5       0.2500    279702  backyard help operations police unveil
+        Keywords emergentes: (nenhuma)
+6       0.2500    301576  help line pregnancy watched will
+        Keywords emergentes: (nenhuma)
+7       0.2500    594596  conroy help hurt will wireless
+        Keywords emergentes: (nenhuma)
+8       0.2500    173252  dinosaur fossil help tourists unearth
+        Keywords emergentes: (nenhuma)
+9       0.2500    1159849 find help mathematics park will
+        Keywords emergentes: (nenhuma)
+10      0.2500    14701   business help international split will
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 32: water plan promotes 'best practice'
+Tokens : [ best plan practice promotes water ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    754001  best plan practice promotes water
+        Keywords emergentes: (nenhuma)
+2       0.4286    196930  best current palaszczuk plan water
+        Keywords emergentes: (nenhuma)
+3       0.3333    281762  ignite plan water
+        Keywords emergentes: (nenhuma)
+4       0.3333    115351  govt plan water
+        Keywords emergentes: (nenhuma)
+5       0.3333    824454  plan wach water
+        Keywords emergentes: (nenhuma)
+6       0.3333    264364  criticised plan water
+        Keywords emergentes: (nenhuma)
+7       0.3333    281617  plan water welcome
+        Keywords emergentes: (nenhuma)
+8       0.3333    315089  enough plan water
+        Keywords emergentes: (nenhuma)
+9       0.3333    500305  discussed plan water
+        Keywords emergentes: (nenhuma)
+10      0.3333    207217  plan questions water
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 33: whincup tightens grip on v8 lead
+Tokens : [ grip lead tightens whincup ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    615288  grip lead tightens whincup
+        Keywords emergentes: (nenhuma)
+2       0.4000    35479   drought grip tightens
+        Keywords emergentes: (nenhuma)
+3       0.4000    375105  drought grip tightens
+        Keywords emergentes: (nenhuma)
+4       0.4000    602157  extends lead whincup
+        Keywords emergentes: (nenhuma)
+5       0.4000    126997  fallujah grip tightens
+        Keywords emergentes: (nenhuma)
+6       0.4000    102352  drought grip tightens
+        Keywords emergentes: (nenhuma)
+7       0.4000    243627  drought grip tightens
+        Keywords emergentes: (nenhuma)
+8       0.4000    114944  drought grip tightens
+        Keywords emergentes: (nenhuma)
+9       0.3333    474399  extends lead townsville whincup
+        Keywords emergentes: (nenhuma)
+10      0.3333    79408   district drought grip tightens
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 34: government accused of water tax grab
+Tokens : [ accused government grab water ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    699298  accused government grab water
+        Keywords emergentes: (nenhuma)
+2       0.5000    535679  accused grab irrigators unmetered water
+        Keywords emergentes: (nenhuma)
+3       0.5000    674762  accused breaking government promise water
+        Keywords emergentes: (nenhuma)
+4       0.5000    487349  accused govt grab murray water
+        Keywords emergentes: (nenhuma)
+5       0.4286    956113  accused government locking queensland rights water
+        Keywords emergentes: (nenhuma)
+6       0.4000    106888  accused government pandering
+        Keywords emergentes: (nenhuma)
+7       0.4000    489523  accused assault water
+        Keywords emergentes: (nenhuma)
+8       0.4000    161313  accused govt grab
+        Keywords emergentes: (nenhuma)
+9       0.4000    476217  accused government hypocrisy
+        Keywords emergentes: (nenhuma)
+10      0.4000    255009  government rebate water
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 35: lake council submission to oppose mine expansion
+Tokens : [ council expansion lake mine oppose submission ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    888953  council expansion lake mine oppose submission
+        Keywords emergentes: (nenhuma)
+2       0.3750    743821  expansion mine oppose residents stratford
+        Keywords emergentes: (nenhuma)
+3       0.3333    755398  community council expansion mine stance welcomes
+        Keywords emergentes: (nenhuma)
+4       0.3333    382080  council expansion focus mine party working
+        Keywords emergentes: (nenhuma)
+5       0.3333    383376  angry consultation council expansion mine over
+        Keywords emergentes: (nenhuma)
+6       0.3333    411130  council lease mine oppose plan schank
+        Keywords emergentes: (nenhuma)
+7       0.3000    833910  backs bendigo council expansion gold mine plan
+        Keywords emergentes: (nenhuma)
+8       0.3000    563070  affect council expansion kandos mine says wont
+        Keywords emergentes: (nenhuma)
+9       0.2857    822749  expansion mine request
+        Keywords emergentes: (nenhuma)
+10      0.2857    511682  cadia expansion mine
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 36: dreamworld deaths gold coast theme park
+Tokens : [ coast deaths dreamworld gold park theme ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1056801 coast deaths dreamworld gold park theme
+        Keywords emergentes: (nenhuma)
+2       0.6250    1056802 coast demolish dreamworld gold park ride theme
+        Keywords emergentes: (nenhuma)
+3       0.5556    968399  born coast dreamworld gold park queenslands theme tiger
+        Keywords emergentes: (nenhuma)
+4       0.5000    646252  coast dead developer gold park theme
+        Keywords emergentes: (nenhuma)
+5       0.5000    99290   breaks coast fire gold park theme
+        Keywords emergentes: (nenhuma)
+6       0.5000    163694  coast gold head operators park theme
+        Keywords emergentes: (nenhuma)
+7       0.4444    1054396 coast dreamworld gold incidents number parks theme
+        Keywords emergentes: (nenhuma)
+8       0.4444    813756  birdsville coast croc gold moved park theme
+        Keywords emergentes: (nenhuma)
+9       0.4444    1054990 deaths dreamworld leaders maligned park save theme
+        Keywords emergentes: (nenhuma)
+10      0.4444    67086   coast gold park strand strong theme winds
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 37: locals wait for news from bushfire zone
+Tokens : [ bushfire from locals news wait zone ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    509987  bushfire from locals news wait zone
+        Keywords emergentes: (nenhuma)
+2       0.3750    146080  from news sydney wait yorke
+        Keywords emergentes: (nenhuma)
+3       0.3750    1073809 financial from markets news wait
+        Keywords emergentes: (nenhuma)
+4       0.3333    1123770 bushfire defend from house locals menai
+        Keywords emergentes: (nenhuma)
+5       0.3333    775243  bushfire fish from rare rescued zone
+        Keywords emergentes: (nenhuma)
+6       0.3333    1123863 bushfire defend from house locals menai
+        Keywords emergentes: (nenhuma)
+7       0.3333    138020  await families from news tsunami zone
+        Keywords emergentes: (nenhuma)
+8       0.3000    196241  await family friends from hurricane news zone
+        Keywords emergentes: (nenhuma)
+9       0.2857    1185480 from news stories
+        Keywords emergentes: (nenhuma)
+10      0.2857    1185412 from news stories
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 38: selina goodman ready for historic aflw grand final
+Tokens : [ aflw final goodman grand historic ready selina ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1075457 aflw final goodman grand historic ready selina
+        Keywords emergentes: aflw 
+2       0.4286    1075587 aflw final grand
+        Keywords emergentes: aflw 
+3       0.3333    1160412 aflw final grand review year
+        Keywords emergentes: aflw 
+4       0.3333    905194  clarkson cyril final grand ready
+        Keywords emergentes: (nenhuma)
+5       0.3333    905260  final grand knights ready team
+        Keywords emergentes: (nenhuma)
+6       0.3333    1160345 adelaide aflw crows final grand
+        Keywords emergentes: aflw 
+7       0.3333    906253  final grand rabbitohs ready resurgent
+        Keywords emergentes: (nenhuma)
+8       0.3000    981962  eagles final grand ready stars themselves
+        Keywords emergentes: (nenhuma)
+9       0.3000    1071712 aflw considers final grand options venues
+        Keywords emergentes: aflw 
+10      0.3000    685234  berth final grand pounce ready wildcats
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 39: bomb disposal soldiers body comes home
+Tokens : [ body bomb comes disposal home soldiers ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    451964  body bomb comes disposal home soldiers
+        Keywords emergentes: (nenhuma)
+2       0.5000    341152  body home soldiers
+        Keywords emergentes: (nenhuma)
+3       0.4286    381108  arrives body home soldiers
+        Keywords emergentes: (nenhuma)
+4       0.4286    555405  body home returns soldiers
+        Keywords emergentes: (nenhuma)
+5       0.4286    397238  arrives body home soldiers
+        Keywords emergentes: (nenhuma)
+6       0.4286    477592  body home returns soldiers
+        Keywords emergentes: (nenhuma)
+7       0.3750    593377  body fallen home returns soldiers
+        Keywords emergentes: (nenhuma)
+8       0.3750    550481  arrives body fallen home soldiers
+        Keywords emergentes: (nenhuma)
+9       0.3750    380980  aussie body home returns soldiers
+        Keywords emergentes: (nenhuma)
+10      0.3750    396987  body home return soldiers today
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 40: life on the latrobe
+Tokens : [ latrobe life ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    506471  latrobe life
+        Keywords emergentes: (nenhuma)
+2       0.5000    670297  life
+        Keywords emergentes: (nenhuma)
+3       0.3333    1162054 carer life
+        Keywords emergentes: (nenhuma)
+4       0.3333    1201725 documenting life
+        Keywords emergentes: (nenhuma)
+5       0.3333    1084187 country life
+        Keywords emergentes: (nenhuma)
+6       0.3333    1207933 liberty life
+        Keywords emergentes: (nenhuma)
+7       0.3333    1232843 chairman life
+        Keywords emergentes: (nenhuma)
+8       0.3333    1109693 life zookeeper
+        Keywords emergentes: (nenhuma)
+9       0.3333    1107405 archivist life
+        Keywords emergentes: (nenhuma)
+10      0.3333    1218983 expectancy life
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 41: world cup round of 16 shapes up
+Tokens : [ round shapes world ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    546081  round shapes world
+        Keywords emergentes: (nenhuma)
+2       0.5000    646     forget round world
+        Keywords emergentes: (nenhuma)
+3       0.4000    895960  round solar trip world
+        Keywords emergentes: (nenhuma)
+4       0.3333    1114566 world
+        Keywords emergentes: (nenhuma)
+5       0.3333    385038  world
+        Keywords emergentes: (nenhuma)
+6       0.3333    132184  course macarthur record round world
+        Keywords emergentes: (nenhuma)
+7       0.3333    144316  course macarthur round stays world
+        Keywords emergentes: (nenhuma)
+8       0.3333    880387  world
+        Keywords emergentes: (nenhuma)
+9       0.3333    160594  hobart holes round world yatchsman
+        Keywords emergentes: (nenhuma)
+10      0.3333    144089  closes macarthur record round world
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 42: asx 200 plunges on global fears
+Tokens : [ fears global plunges ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    415452  fears global plunges
+        Keywords emergentes: (nenhuma)
+2       0.5000    1121117 fears plunges trade
+        Keywords emergentes: (nenhuma)
+3       0.5000    458451  fears global pandemic
+        Keywords emergentes: (nenhuma)
+4       0.4000    414761  fears global hurt slowdown
+        Keywords emergentes: (nenhuma)
+5       0.4000    55819   fears global markets terror
+        Keywords emergentes: (nenhuma)
+6       0.4000    411095  down fears global markets
+        Keywords emergentes: (nenhuma)
+7       0.4000    355199  fears market plunges recession
+        Keywords emergentes: (nenhuma)
+8       0.4000    357735  fears market plunges recession
+        Keywords emergentes: (nenhuma)
+9       0.3333    12926   events fears global spark tourism
+        Keywords emergentes: (nenhuma)
+10      0.3333    411204  closes down fears global market
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 43: police catch p plater allegedly doing 154 kph
+Tokens : [ allegedly catch doing plater police ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    551327  allegedly catch doing plater police
+        Keywords emergentes: (nenhuma)
+2       0.5000    370878  clocked doing plater police
+        Keywords emergentes: (nenhuma)
+3       0.4286    428685  catch doing hoon motorcycle police
+        Keywords emergentes: (nenhuma)
+4       0.4000    425637  doing plater
+        Keywords emergentes: (nenhuma)
+5       0.3333    372027  accused doing plater
+        Keywords emergentes: (nenhuma)
+6       0.3333    379115  doing plater zone
+        Keywords emergentes: (nenhuma)
+7       0.3333    696710  accused doing plater
+        Keywords emergentes: (nenhuma)
+8       0.3333    784395  accused doing plater
+        Keywords emergentes: (nenhuma)
+9       0.3333    368540  accused doing plater
+        Keywords emergentes: (nenhuma)
+10      0.3333    823343  accused doing plater
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 44: call for independent inquiry into cell death
+Tokens : [ call cell death independent inquiry into ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    586713  call cell death independent inquiry into
+        Keywords emergentes: (nenhuma)
+2       0.5714    891327  australias call independent inquiry into
+        Keywords emergentes: (nenhuma)
+3       0.5714    587314  call death independent into investigation
+        Keywords emergentes: (nenhuma)
+4       0.5714    725252  call independent inquiry into police
+        Keywords emergentes: (nenhuma)
+5       0.5000    418995  call death independent into prisoner probe
+        Keywords emergentes: (nenhuma)
+6       0.4444    172063  after call death inquiry into mans police
+        Keywords emergentes: (nenhuma)
+7       0.4444    279184  accidental call death high inquiry into rates
+        Keywords emergentes: (nenhuma)
+8       0.4286    630104  death inquiry into journo
+        Keywords emergentes: (nenhuma)
+9       0.4286    499002  death inquiry into liposuction
+        Keywords emergentes: (nenhuma)
+10      0.4000    855668  call coal fire independent inquiry into mine morwell
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 45: leslie lenkowsky on the giving pledge
+Tokens : [ giving lenkowsky leslie pledge ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1168893 giving lenkowsky leslie pledge
+        Keywords emergentes: (nenhuma)
+2       0.2500    386940  giving
+        Keywords emergentes: (nenhuma)
+3       0.2000    881207  paper pledge
+        Keywords emergentes: (nenhuma)
+4       0.2000    201806  leslie speaks
+        Keywords emergentes: (nenhuma)
+5       0.2000    1237381 plastics pledge
+        Keywords emergentes: (nenhuma)
+6       0.2000    202212  home leslie
+        Keywords emergentes: (nenhuma)
+7       0.2000    201804  leslie relieved
+        Keywords emergentes: (nenhuma)
+8       0.2000    201980  criticised leslie
+        Keywords emergentes: (nenhuma)
+9       0.2000    988842  cannold leslie
+        Keywords emergentes: (nenhuma)
+10      0.2000    626247  giving roosters
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 46: closer am1
+Tokens : [ closer ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    239385  closer
+        Keywords emergentes: (nenhuma)
+2       1.0000    288420  closer
+        Keywords emergentes: (nenhuma)
+3       1.0000    295492  closer
+        Keywords emergentes: (nenhuma)
+4       1.0000    338364  closer
+        Keywords emergentes: (nenhuma)
+5       1.0000    295491  closer
+        Keywords emergentes: (nenhuma)
+6       1.0000    253984  closer
+        Keywords emergentes: (nenhuma)
+7       1.0000    295953  closer
+        Keywords emergentes: (nenhuma)
+8       1.0000    297964  closer
+        Keywords emergentes: (nenhuma)
+9       1.0000    298257  closer
+        Keywords emergentes: (nenhuma)
+10      1.0000    297043  closer
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 47: unhappy vmos to meet over pay dispute
+Tokens : [ dispute meet over unhappy vmos ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    182978  dispute meet over unhappy vmos
+        Keywords emergentes: (nenhuma)
+2       0.4286    92240   dispute meet over parties power
+        Keywords emergentes: (nenhuma)
+3       0.4286    511880  dispute meet over port union
+        Keywords emergentes: (nenhuma)
+4       0.4000    776961  dispute over
+        Keywords emergentes: (nenhuma)
+5       0.4000    658001  dispute vmos
+        Keywords emergentes: (nenhuma)
+6       0.3750    73010   dispute growers lawyers meet over wine
+        Keywords emergentes: (nenhuma)
+7       0.3333    609207  dispute over shot
+        Keywords emergentes: (nenhuma)
+8       0.3333    88131   bypass meet over
+        Keywords emergentes: (nenhuma)
+9       0.3333    36768   dispute over teachers
+        Keywords emergentes: (nenhuma)
+10      0.3333    616656  dispute over wharf
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 48: missing walker found safe
+Tokens : [ found missing safe walker ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    413828  found missing safe walker
+        Keywords emergentes: (nenhuma)
+2       1.0000    868933  found missing safe walker
+        Keywords emergentes: (nenhuma)
+3       0.7500    680835  found missing safe
+        Keywords emergentes: (nenhuma)
+4       0.7500    640894  found missing safe
+        Keywords emergentes: (nenhuma)
+5       0.7500    505486  found missing safe
+        Keywords emergentes: (nenhuma)
+6       0.7500    314996  found missing safe
+        Keywords emergentes: (nenhuma)
+7       0.7500    10554   found missing safe
+        Keywords emergentes: (nenhuma)
+8       0.7500    666054  found missing safe
+        Keywords emergentes: (nenhuma)
+9       0.7500    415332  found missing safe
+        Keywords emergentes: (nenhuma)
+10      0.7500    634425  found missing safe
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 49: cherry gardens fire adelaide hills bushfire
+Tokens : [ adelaide bushfire cherry fire gardens hills ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1228637 adelaide bushfire cherry fire gardens hills
+        Keywords emergentes: (nenhuma)
+2       0.6250    1228584 adelaide arrested bushfire cherry gardens hills near
+        Keywords emergentes: (nenhuma)
+3       0.6250    1228622 adelaide bushfire cherry gardens hills residents survive
+        Keywords emergentes: (nenhuma)
+4       0.4286    73891   adelaide contained fire hills
+        Keywords emergentes: (nenhuma)
+5       0.4000    1228750 adelaide after bushfire cherry clean gardens heavy rain
+        Keywords emergentes: (nenhuma)
+6       0.3750    443543  adelaide bushfire hills risk substantial
+        Keywords emergentes: (nenhuma)
+7       0.3750    367622  adelaide closes fire hills roads
+        Keywords emergentes: (nenhuma)
+8       0.3750    277500  adelaide authorities bushfire hills suspect
+        Keywords emergentes: (nenhuma)
+9       0.3750    357358  adelaide evacuations fire forces hills
+        Keywords emergentes: (nenhuma)
+10      0.3750    1216666 adelaide approaches bushfire hills property
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 50: drink drive results disappoint police
+Tokens : [ disappoint drink drive police results ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    519439  disappoint drink drive police results
+        Keywords emergentes: (nenhuma)
+2       0.5714    347900  bendigo disappoint drink driving police results
+        Keywords emergentes: (nenhuma)
+3       0.5714    432110  blitz drink drive police results worry
+        Keywords emergentes: (nenhuma)
+4       0.5000    522400  disgraceful drink drive results
+        Keywords emergentes: (nenhuma)
+5       0.5000    505753  drink drive fears police
+        Keywords emergentes: (nenhuma)
+6       0.4286    426465  accused drink drive police search
+        Keywords emergentes: (nenhuma)
+7       0.4286    610083  drink drive lament numbers police
+        Keywords emergentes: (nenhuma)
+8       0.4286    580260  drink drive lament offences police
+        Keywords emergentes: (nenhuma)
+9       0.4286    608221  amazed drink drive police readings
+        Keywords emergentes: (nenhuma)
+10      0.4286    296905  disappointed drink drive police rise
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 51: mdba to measure basin plans impact
+Tokens : [ basin impact mdba measure plans ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    799540  basin impact mdba measure plans
+        Keywords emergentes: (nenhuma)
+2       0.5000    799539  impact mdba measure meetings
+        Keywords emergentes: (nenhuma)
+3       0.3333    835340  basin eyre fears impact lake plans still
+        Keywords emergentes: (nenhuma)
+4       0.3333    1058909 basin mdba northern
+        Keywords emergentes: (nenhuma)
+5       0.3333    773706  basin plans west
+        Keywords emergentes: (nenhuma)
+6       0.2857    504896  basin cause controversy plans
+        Keywords emergentes: (nenhuma)
+7       0.2857    628049  find impact plans snail
+        Keywords emergentes: (nenhuma)
+8       0.2857    765394  basin community feeback mdba
+        Keywords emergentes: (nenhuma)
+9       0.2500    613516  basin departure expected impact plan
+        Keywords emergentes: (nenhuma)
+10      0.2500    568255  basin fear impact plan shires
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 52: missing woman found safe
+Tokens : [ found missing safe woman ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    174123  found missing safe woman
+        Keywords emergentes: (nenhuma)
+2       1.0000    850887  found missing safe woman
+        Keywords emergentes: (nenhuma)
+3       1.0000    364443  found missing safe woman
+        Keywords emergentes: (nenhuma)
+4       1.0000    194883  found missing safe woman
+        Keywords emergentes: (nenhuma)
+5       1.0000    489666  found missing safe woman
+        Keywords emergentes: (nenhuma)
+6       1.0000    741821  found missing safe woman
+        Keywords emergentes: (nenhuma)
+7       1.0000    767284  found missing safe woman
+        Keywords emergentes: (nenhuma)
+8       1.0000    39058   found missing safe woman
+        Keywords emergentes: (nenhuma)
+9       0.8000    452851  found mandurah missing safe woman
+        Keywords emergentes: (nenhuma)
+10      0.8000    14386   found missing safe well woman
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 53: neomi rao date rape comments college dangerous feminism
+Tokens : [ college comments dangerous date feminism neomi rape ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1155214 college comments dangerous date feminism neomi rape
+        Keywords emergentes: (nenhuma)
+2       0.2222    756314  breastfeeding comments dangerous kochs
+        Keywords emergentes: (nenhuma)
+3       0.2222    645467  comments kosmina rape told
+        Keywords emergentes: (nenhuma)
+4       0.2222    576334  date doctor jailed rape
+        Keywords emergentes: (nenhuma)
+5       0.2222    645538  apologises comments kosmina rape
+        Keywords emergentes: (nenhuma)
+6       0.2000    893326  comments indian outrage over rape
+        Keywords emergentes: (nenhuma)
+7       0.2000    110142  comments inappropriate magistrates prison rape
+        Keywords emergentes: (nenhuma)
+8       0.2000    26837   apologises comments gang japanese rape
+        Keywords emergentes: (nenhuma)
+9       0.2000    68392   date dropped drug rape sweden
+        Keywords emergentes: (nenhuma)
+10      0.2000    321419  accused another date intended rape
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 54: richmond valley cattle farmer don durrant is
+Tokens : [ cattle durrant farmer richmond valley ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    770563  cattle durrant farmer richmond valley
+        Keywords emergentes: (nenhuma)
+2       0.4000    875976  richmond valley
+        Keywords emergentes: (nenhuma)
+3       0.4000    828028  richmond valley
+        Keywords emergentes: (nenhuma)
+4       0.3333    303288  rates richmond valley
+        Keywords emergentes: (nenhuma)
+5       0.3333    993133  quits richmond valley
+        Keywords emergentes: (nenhuma)
+6       0.3333    855344  rates richmond valley
+        Keywords emergentes: (nenhuma)
+7       0.2857    438154  election march richmond valley
+        Keywords emergentes: (nenhuma)
+8       0.2857    601880  charlie councillor richmond valley
+        Keywords emergentes: (nenhuma)
+9       0.2857    777023  farmers north richmond valley
+        Keywords emergentes: (nenhuma)
+10      0.2857    468020  cattle farmer jailed starving
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 55: laryngitis forces lavigne to postpone concerts
+Tokens : [ concerts forces laryngitis lavigne postpone ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    381649  concerts forces laryngitis lavigne postpone
+        Keywords emergentes: (nenhuma)
+2       0.2222    498255  cancel concerts elton forces illness john
+        Keywords emergentes: (nenhuma)
+3       0.2000    295954  coca cola easter film forces postpone release
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 56: record easy as pi for number cruncher
+Tokens : [ cruncher easy number record ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    173352  cruncher easy number record
+        Keywords emergentes: (nenhuma)
+2       0.4000    568504  marry number record
+        Keywords emergentes: (nenhuma)
+3       0.3333    1207311 cases covid number record
+        Keywords emergentes: covid 
+4       0.3333    75970   elections local number record
+        Keywords emergentes: (nenhuma)
+5       0.3333    908799  cars number record students
+        Keywords emergentes: (nenhuma)
+6       0.3333    310887  approved developments number record
+        Keywords emergentes: (nenhuma)
+7       0.3333    41788   centenarians number reaches record
+        Keywords emergentes: (nenhuma)
+8       0.3333    810226  number record signs times
+        Keywords emergentes: (nenhuma)
+9       0.3333    610446  graduate number record students
+        Keywords emergentes: (nenhuma)
+10      0.3333    398300  mass number popes record
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 57: trevor matthews on new keysbrook mine
+Tokens : [ keysbrook matthews mine trevor ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1019424 keysbrook matthews mine trevor
+        Keywords emergentes: (nenhuma)
+2       0.2500    790329  mine
+        Keywords emergentes: (nenhuma)
+3       0.2500    112757  mine
+        Keywords emergentes: (nenhuma)
+4       0.2500    763199  mine
+        Keywords emergentes: (nenhuma)
+5       0.2500    842534  mine
+        Keywords emergentes: (nenhuma)
+6       0.2500    864681  mine
+        Keywords emergentes: (nenhuma)
+7       0.2500    957066  mine
+        Keywords emergentes: (nenhuma)
+8       0.2500    705404  mine
+        Keywords emergentes: (nenhuma)
+9       0.2000    977365  mine reax
+        Keywords emergentes: (nenhuma)
+10      0.2000    974034  mine wait
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 58: pastoralists urged to read and give feedback on
+Tokens : [ feedback give pastoralists read urged ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    773727  feedback give pastoralists read urged
+        Keywords emergentes: (nenhuma)
+2       0.3750    545880  community feedback give public transport urged
+        Keywords emergentes: (nenhuma)
+3       0.2857    916876  compliant lease pastoralists urged
+        Keywords emergentes: (nenhuma)
+4       0.2857    490989  businesses council feedback give
+        Keywords emergentes: (nenhuma)
+5       0.2857    105618  blood canberrans give urged
+        Keywords emergentes: (nenhuma)
+6       0.2857    133047  driver give himself urged
+        Keywords emergentes: (nenhuma)
+7       0.2857    643370  give more rich urged
+        Keywords emergentes: (nenhuma)
+8       0.2857    111986  blood give queenslanders urged
+        Keywords emergentes: (nenhuma)
+9       0.2857    408198  blood give public urged
+        Keywords emergentes: (nenhuma)
+10      0.2857    473694  give govt grandstand urged
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 59: coronavirus queensland cairns tourism dollars explained
+Tokens : [ cairns coronavirus dollars explained queensland tourism ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1233440 cairns coronavirus dollars explained queensland tourism
+        Keywords emergentes: coronavirus 
+2       0.4444    1195880 cairns coronavirus hotels queensland reef regional tourism
+        Keywords emergentes: coronavirus 
+3       0.4286    1195708 cairns coronavirus pathology queensland
+        Keywords emergentes: coronavirus 
+4       0.4286    1226869 coronavirus explained lockdown queensland
+        Keywords emergentes: coronavirus 
+5       0.4286    1202208 cairns coronavirus jobkeeper queensland
+        Keywords emergentes: coronavirus jobkeeper 
+6       0.4286    1198471 coronavirus millions queensland tourism
+        Keywords emergentes: coronavirus 
+7       0.3750    1195984 billion coronavirus dollar queensland tourism
+        Keywords emergentes: coronavirus 
+8       0.3750    1193039 coronavirus impact north queensland tourism
+        Keywords emergentes: coronavirus 
+9       0.3750    1196099 cairns cluster coronavirus pathology queensland
+        Keywords emergentes: coronavirus 
+10      0.3750    1228895 coronavirus explained queensland rollout vaccine
+        Keywords emergentes: coronavirus 
+======================================================================
+
+Titulo 60: man to face court over kirwan stabbing
+Tokens : [ court face kirwan over stabbing ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    169583  court face kirwan over stabbing
+        Keywords emergentes: (nenhuma)
+2       0.8000    61764   court face over stabbing
+        Keywords emergentes: (nenhuma)
+3       0.8000    15520   court face over stabbing
+        Keywords emergentes: (nenhuma)
+4       0.8000    19079   court face over stabbing
+        Keywords emergentes: (nenhuma)
+5       0.8000    225398  court face over stabbing
+        Keywords emergentes: (nenhuma)
+6       0.8000    456433  court face over stabbing
+        Keywords emergentes: (nenhuma)
+7       0.6667    201997  court face laverton over stabbing
+        Keywords emergentes: (nenhuma)
+8       0.6667    217229  court face over stabbing woman
+        Keywords emergentes: (nenhuma)
+9       0.6667    829604  court face fatal over stabbing
+        Keywords emergentes: (nenhuma)
+10      0.6667    765920  court face murder over stabbing
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 61: when the authors struggled to get the book
+Tokens : [ authors book struggled when ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1088724 authors book struggled when
+        Keywords emergentes: (nenhuma)
+2       0.2500    609431  authors book identity restore veteran vietnam
+        Keywords emergentes: (nenhuma)
+3       0.2222    1242011 book booster covid should vaccine when your
+        Keywords emergentes: covid 
+4       0.2222    1081662 book create help kids parents separate when
+        Keywords emergentes: (nenhuma)
+5       0.2000    357840  accident when
+        Keywords emergentes: (nenhuma)
+6       0.2000    667873  snails when
+        Keywords emergentes: (nenhuma)
+7       0.2000    1043054 poms when
+        Keywords emergentes: (nenhuma)
+8       0.2000    324494  costello when
+        Keywords emergentes: (nenhuma)
+9       0.2000    590275  then when
+        Keywords emergentes: (nenhuma)
+10      0.2000    1123114 vaccine when
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 62: government rules out office block for hajek plaza
+Tokens : [ block government hajek office plaza rules ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    845971  block government hajek office plaza rules
+        Keywords emergentes: (nenhuma)
+2       0.5000    668274  block government office
+        Keywords emergentes: (nenhuma)
+3       0.3333    890471  appeal court government office post rules
+        Keywords emergentes: (nenhuma)
+4       0.2857    668275  building government office
+        Keywords emergentes: (nenhuma)
+5       0.2857    529727  office rules worthington
+        Keywords emergentes: (nenhuma)
+6       0.2857    591504  government lift rules
+        Keywords emergentes: (nenhuma)
+7       0.2857    654134  block mall office
+        Keywords emergentes: (nenhuma)
+8       0.2857    642559  block office proposal
+        Keywords emergentes: (nenhuma)
+9       0.2500    652770  government london office open
+        Keywords emergentes: (nenhuma)
+10      0.2500    632684  government office outsource project
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 63: council to start building bungendore hq
+Tokens : [ building bungendore council start ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    160195  building bungendore council start
+        Keywords emergentes: (nenhuma)
+2       0.4000    533823  building council ponders
+        Keywords emergentes: (nenhuma)
+3       0.4000    704451  council keen start
+        Keywords emergentes: (nenhuma)
+4       0.3333    215645  building million resort start
+        Keywords emergentes: (nenhuma)
+5       0.3333    685229  building council gets warrumbungles
+        Keywords emergentes: (nenhuma)
+6       0.3333    1008024 council cull outback start
+        Keywords emergentes: (nenhuma)
+7       0.3333    227287  building burwood council talks
+        Keywords emergentes: (nenhuma)
+8       0.3333    230178  building council gets offices
+        Keywords emergentes: (nenhuma)
+9       0.3333    159963  council negotiations start unions
+        Keywords emergentes: (nenhuma)
+10      0.3333    653265  bypass council land start
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 64: not guilty plea over listeria find
+Tokens : [ find guilty listeria over plea ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    460153  find guilty listeria over plea
+        Keywords emergentes: (nenhuma)
+2       0.6000    533483  guilty over plea
+        Keywords emergentes: (nenhuma)
+3       0.5000    467616  death guilty over plea
+        Keywords emergentes: (nenhuma)
+4       0.5000    597091  drug guilty over plea
+        Keywords emergentes: (nenhuma)
+5       0.5000    693127  guilty over plea shooting
+        Keywords emergentes: (nenhuma)
+6       0.5000    561699  death guilty over plea
+        Keywords emergentes: (nenhuma)
+7       0.5000    705965  dare guilty over plea
+        Keywords emergentes: (nenhuma)
+8       0.5000    624437  fatal guilty over plea
+        Keywords emergentes: (nenhuma)
+9       0.5000    539172  guilty over plea trying
+        Keywords emergentes: (nenhuma)
+10      0.5000    351058  attacks guilty over plea
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 65: peregian beach peregian springs bushfire anniversary
+Tokens : [ anniversary beach bushfire peregian springs ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1213291 anniversary beach bushfire peregian springs
+        Keywords emergentes: (nenhuma)
+2       0.5000    1179834 beach burning bushfire peregian
+        Keywords emergentes: (nenhuma)
+3       0.5000    1179932 beach bushfire near peregian
+        Keywords emergentes: (nenhuma)
+4       0.4286    1176100 beach bushfire peregian queensland rescue
+        Keywords emergentes: (nenhuma)
+5       0.3750    1185157 bushfire captures local near peregian springs
+        Keywords emergentes: (nenhuma)
+6       0.3333    1176143 bushfire home nursing peregian residents springs trapped
+        Keywords emergentes: (nenhuma)
+7       0.3333    1179906 beach bushfire coast evacuated homes peregian queensland
+        Keywords emergentes: (nenhuma)
+8       0.3000    1180023 beach block buses bushfire peregian road school students
+        Keywords emergentes: (nenhuma)
+9       0.2857    515166  anniversary brace bushfire residents
+        Keywords emergentes: (nenhuma)
+10      0.2857    516380  anniversary bushfire gippsland marks
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 66: m5 tunnel suffers setback
+Tokens : [ setback suffers tunnel ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    520493  setback suffers tunnel
+        Keywords emergentes: (nenhuma)
+2       0.5000    675871  cummins setback suffers
+        Keywords emergentes: (nenhuma)
+3       0.5000    293629  qantas setback suffers
+        Keywords emergentes: (nenhuma)
+4       0.4000    125380  arafat health setback suffers
+        Keywords emergentes: (nenhuma)
+5       0.4000    607312  barlow setback slight suffers
+        Keywords emergentes: (nenhuma)
+6       0.4000    159385  londons olympic setback suffers
+        Keywords emergentes: (nenhuma)
+7       0.4000    12675   brochure candidate setback suffers
+        Keywords emergentes: (nenhuma)
+8       0.4000    289329  american cricket setback suffers
+        Keywords emergentes: (nenhuma)
+9       0.4000    54016   record setback suffers woodbridge
+        Keywords emergentes: (nenhuma)
+10      0.4000    601637  lawsuit setback sheen suffers
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 67: murray darling kayaker ends trek
+Tokens : [ darling ends kayaker murray trek ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    333146  darling ends kayaker murray trek
+        Keywords emergentes: (nenhuma)
+2       0.4000    870886  darling murray
+        Keywords emergentes: (nenhuma)
+3       0.4000    984744  darling murray
+        Keywords emergentes: (nenhuma)
+4       0.4000    743016  darling murray
+        Keywords emergentes: (nenhuma)
+5       0.4000    742914  darling murray
+        Keywords emergentes: (nenhuma)
+6       0.3333    299322  darling murray report
+        Keywords emergentes: (nenhuma)
+7       0.3333    395618  bleating darling murray
+        Keywords emergentes: (nenhuma)
+8       0.3333    316260  darling murray plan
+        Keywords emergentes: (nenhuma)
+9       0.3333    568375  darling murray plan
+        Keywords emergentes: (nenhuma)
+10      0.3333    569674  darling debacle murray
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 68: what we know about the nice attacker
+Tokens : [ about attacker know nice what ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1037563 about attacker know nice what
+        Keywords emergentes: (nenhuma)
+2       0.5714    1063746 about attacker berlin know market what
+        Keywords emergentes: (nenhuma)
+3       0.5000    1083229 about attacker islamic know manchester state what
+        Keywords emergentes: (nenhuma)
+4       0.5000    1239293 about know moderna what
+        Keywords emergentes: (nenhuma)
+5       0.5000    1095001 about know pine what
+        Keywords emergentes: (nenhuma)
+6       0.5000    1101143 about know pixel what
+        Keywords emergentes: (nenhuma)
+7       0.4286    1119003 about know moisturiser need what
+        Keywords emergentes: (nenhuma)
+8       0.4286    1085471 about blerd know movement what
+        Keywords emergentes: (nenhuma)
+9       0.4286    1055143 about dreamworld know tragedy what
+        Keywords emergentes: (nenhuma)
+10      0.4286    1077692 about does facebook know what
+        Keywords emergentes: facebook 
+======================================================================
+
+Titulo 69: treasurer joe hockey takes axe to labor tax initiatives
+Tokens : [ hockey initiatives labor takes treasurer ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    832192  hockey initiatives labor takes treasurer
+        Keywords emergentes: (nenhuma)
+2       0.3333    922862  hockey myefo treasurer
+        Keywords emergentes: (nenhuma)
+3       0.3333    871150  australia hockey treasurer
+        Keywords emergentes: (nenhuma)
+4       0.3333    539307  hockey shadow treasurer
+        Keywords emergentes: (nenhuma)
+5       0.3333    451848  president takes treasurer
+        Keywords emergentes: (nenhuma)
+6       0.2857    916471  discusses economic hockey treasurer
+        Keywords emergentes: (nenhuma)
+7       0.2857    348479  labor robertson seat takes
+        Keywords emergentes: (nenhuma)
+8       0.2857    443786  appointed hockey shadow treasurer
+        Keywords emergentes: (nenhuma)
+9       0.2857    340157  labor lead poll takes
+        Keywords emergentes: (nenhuma)
+10      0.2857    569447  bronze hockey mens takes
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 70: central west nsw rural report
+Tokens : [ central report rural west ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    519422  central report rural west
+        Keywords emergentes: (nenhuma)
+2       0.5000    685985  report rural
+        Keywords emergentes: (nenhuma)
+3       0.5000    292155  central counsellors financial rural west
+        Keywords emergentes: (nenhuma)
+4       0.5000    524377  report rural
+        Keywords emergentes: (nenhuma)
+5       0.5000    832444  report rural
+        Keywords emergentes: (nenhuma)
+6       0.5000    538106  report rural
+        Keywords emergentes: (nenhuma)
+7       0.5000    558125  report rural
+        Keywords emergentes: (nenhuma)
+8       0.4286    282360  central councillors financial rural stay west
+        Keywords emergentes: (nenhuma)
+9       0.4286    679984  north queensland report rural west western
+        Keywords emergentes: (nenhuma)
+10      0.4286    747030  bryant central from report sally west
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 71: all blacks message to lomu
+Tokens : [ blacks lomu message ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    641921  blacks lomu message
+        Keywords emergentes: (nenhuma)
+2       0.4000    318702  blacks lomu relax tells
+        Keywords emergentes: (nenhuma)
+3       0.3333    996221  blacks farewelled jonah legend lomu
+        Keywords emergentes: (nenhuma)
+4       0.3333    300423  blacks
+        Keywords emergentes: (nenhuma)
+5       0.3333    809201  against blacks channel folau lomu
+        Keywords emergentes: folau 
+6       0.3333    34440   blacks clears doctor lomu play
+        Keywords emergentes: (nenhuma)
+7       0.3333    647038  blacks
+        Keywords emergentes: (nenhuma)
+8       0.2857    38828   blacks lomu mehrtens miss squad world
+        Keywords emergentes: (nenhuma)
+9       0.2500    352945  message queens
+        Keywords emergentes: (nenhuma)
+10      0.2500    643022  blacks world
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 72: baby basher guilty
+Tokens : [ baby basher guilty ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    670349  baby basher guilty
+        Keywords emergentes: (nenhuma)
+2       0.5000    652639  baby guilty shaking
+        Keywords emergentes: (nenhuma)
+3       0.5000    494128  baby basher jailed
+        Keywords emergentes: (nenhuma)
+4       0.4000    182875  baby found guilty murdering
+        Keywords emergentes: (nenhuma)
+5       0.4000    351834  baby guilty pleads shaking
+        Keywords emergentes: (nenhuma)
+6       0.4000    53227   baby guilty manslaughter pleads
+        Keywords emergentes: (nenhuma)
+7       0.4000    499025  baby guilty murdering pleads
+        Keywords emergentes: (nenhuma)
+8       0.4000    490418  baby bashing guilty plea
+        Keywords emergentes: (nenhuma)
+9       0.4000    502607  baby guilty manslaughter mother
+        Keywords emergentes: (nenhuma)
+10      0.4000    744748  baby guilty manslaughter pleads
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 73: iraq violence continues despite death of zarqawi
+Tokens : [ continues death despite iraq violence zarqawi ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    242379  continues death despite iraq violence zarqawi
+        Keywords emergentes: (nenhuma)
+2       0.5000    267114  continues iraq violence
+        Keywords emergentes: (nenhuma)
+3       0.5000    275988  continues iraq violence
+        Keywords emergentes: (nenhuma)
+4       0.5000    87650   continues death iraq rises toll violence
+        Keywords emergentes: (nenhuma)
+5       0.5000    242037  death despite iraq over terrorism zarqawi
+        Keywords emergentes: (nenhuma)
+6       0.4444    265255  call continues despite iraq mecca peace violence
+        Keywords emergentes: (nenhuma)
+7       0.4286    142390  continues iraq poll violence
+        Keywords emergentes: (nenhuma)
+8       0.4286    76675   continues iraq sporadic violence
+        Keywords emergentes: (nenhuma)
+9       0.4286    61843   across continues iraq violence
+        Keywords emergentes: (nenhuma)
+10      0.3750    320721  asian baghdad continues despite violence
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 74: licensee speaks out about premier hotel fire in albany
+Tokens : [ about albany fire hotel licensee premier speaks ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1035547 about albany fire hotel licensee premier speaks
+        Keywords emergentes: (nenhuma)
+2       0.4444    1026158 albany damaged fire historic hotel premier
+        Keywords emergentes: (nenhuma)
+3       0.3333    1113312 albany arson hotel insurance jailed licensee over plot premier
+        Keywords emergentes: (nenhuma)
+4       0.3000    35984   after destroys fire hotel licensee shock
+        Keywords emergentes: (nenhuma)
+5       0.3000    539074  about barnett budget colin premier speaks
+        Keywords emergentes: (nenhuma)
+6       0.3000    498379  about barnett colin premier speaks states
+        Keywords emergentes: (nenhuma)
+7       0.3000    1235874 about kelly premier queensland speaks wilkinsons
+        Keywords emergentes: (nenhuma)
+8       0.3000    1077928 charged court fire hotel over premier
+        Keywords emergentes: (nenhuma)
+9       0.3000    534480  about barnett colin premier speaks troy
+        Keywords emergentes: (nenhuma)
+10      0.3000    458956  about pandemic plan premier speaks swine
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 75: chris dawson and his brother outside court
+Tokens : [ brother chris court dawson outside ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1155880 brother chris court dawson outside
+        Keywords emergentes: (nenhuma)
+2       0.4286    1155881 appears chris court dawson sydney
+        Keywords emergentes: (nenhuma)
+3       0.3750    1150625 chris court dawson hears teachers threatened
+        Keywords emergentes: (nenhuma)
+4       0.3750    1215238 ahead chris court dawson judgment trial
+        Keywords emergentes: (nenhuma)
+5       0.3333    73347   court down outside
+        Keywords emergentes: (nenhuma)
+6       0.3333    372929  abused court outside
+        Keywords emergentes: (nenhuma)
+7       0.3333    644866  brother court murder
+        Keywords emergentes: (nenhuma)
+8       0.3000    1155882 allegations attends chris court dawson murder over sydney
+        Keywords emergentes: (nenhuma)
+9       0.2857    327583  arrests court outside protest
+        Keywords emergentes: (nenhuma)
+10      0.2857    1177770 adelaide altercation court outside
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 76: death toll rises to 39 in us club blaze
+Tokens : [ blaze club death rises toll ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    723     blaze club death rises toll
+        Keywords emergentes: (nenhuma)
+2       0.6667    440353  blaze death nairobi rises toll
+        Keywords emergentes: (nenhuma)
+3       0.6667    440492  blaze death kenya rises toll
+        Keywords emergentes: (nenhuma)
+4       0.6000    177662  death rises toll
+        Keywords emergentes: (nenhuma)
+5       0.5714    467309  blaze care death mexico rises toll
+        Keywords emergentes: (nenhuma)
+6       0.5000    278737  death iraq rises toll
+        Keywords emergentes: (nenhuma)
+7       0.5000    11039   death rises roads toll
+        Keywords emergentes: (nenhuma)
+8       0.5000    8325    death marines rises toll
+        Keywords emergentes: (nenhuma)
+9       0.5000    62757   death east rises toll
+        Keywords emergentes: (nenhuma)
+10      0.5000    127724  death fallujah rises toll
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 77: nsw mdba reax
+Tokens : [ mdba reax ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    714162  mdba reax
+        Keywords emergentes: (nenhuma)
+2       1.0000    671556  mdba reax
+        Keywords emergentes: (nenhuma)
+3       0.5000    916301  reax
+        Keywords emergentes: (nenhuma)
+4       0.5000    982249  reax
+        Keywords emergentes: (nenhuma)
+5       0.5000    906675  reax
+        Keywords emergentes: (nenhuma)
+6       0.5000    955848  reax
+        Keywords emergentes: (nenhuma)
+7       0.5000    985742  reax
+        Keywords emergentes: (nenhuma)
+8       0.5000    845613  reax
+        Keywords emergentes: (nenhuma)
+9       0.5000    988933  reax
+        Keywords emergentes: (nenhuma)
+10      0.5000    994663  reax
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 78: beaches closed after girl stung by deadly jellyfish
+Tokens : [ after beaches closed deadly girl jellyfish stung ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    433476  after beaches closed deadly girl jellyfish stung
+        Keywords emergentes: (nenhuma)
+2       0.5000    204722  after beaches closed stung swimmers
+        Keywords emergentes: (nenhuma)
+3       0.4286    418719  deadly jellyfish stung
+        Keywords emergentes: (nenhuma)
+4       0.4000    512113  after beaches broome closed jellyfish remain stings
+        Keywords emergentes: (nenhuma)
+5       0.3333    355185  beaches closed force jellyfish remain
+        Keywords emergentes: (nenhuma)
+6       0.3333    969020  after attack beaches closed shark
+        Keywords emergentes: (nenhuma)
+7       0.3333    508313  after girl hospital jellyfish sting
+        Keywords emergentes: (nenhuma)
+8       0.3333    92863   after deadly improving jellyfish sting
+        Keywords emergentes: (nenhuma)
+9       0.3333    508789  after girl jellyfish stable sting
+        Keywords emergentes: (nenhuma)
+10      0.3333    295467  after beaches closed tsunami warning
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 79: abbott signals changes to qantas foreign ownership rules
+Tokens : [ abbott changes foreign ownership qantas rules signals ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    856228  abbott changes foreign ownership qantas rules signals
+        Keywords emergentes: (nenhuma)
+2       0.5556    853379  abbott flags foreign lifting ownership qantas rules
+        Keywords emergentes: (nenhuma)
+3       0.5000    269467  costello foreign ownership qantas rules
+        Keywords emergentes: (nenhuma)
+4       0.5000    857809  changes explained foreign ownership qantas
+        Keywords emergentes: (nenhuma)
+5       0.4000    837395  calls chief fairer foreign ownership qantas rules
+        Keywords emergentes: (nenhuma)
+6       0.4000    837609  ditching flags foreign hockey ownership qantas rules
+        Keywords emergentes: (nenhuma)
+7       0.3750    302942  check foreign ownership qantas
+        Keywords emergentes: (nenhuma)
+8       0.3750    315166  declines foreign ownership qantas
+        Keywords emergentes: (nenhuma)
+9       0.3333    303260  check deadline foreign ownership qantas
+        Keywords emergentes: (nenhuma)
+10      0.3333    889151  compromise foreign ownership qantas reached
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 80: germany reopens biggest national synagogue
+Tokens : [ biggest germany national reopens synagogue ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    327655  biggest germany national reopens synagogue
+        Keywords emergentes: (nenhuma)
+2       0.5000    327852  biggest germanys reopens synagogue
+        Keywords emergentes: (nenhuma)
+3       0.2500    940096  australias biggest created national park
+        Keywords emergentes: (nenhuma)
+4       0.2500    680398  desert national park reopens simpson
+        Keywords emergentes: (nenhuma)
+5       0.2500    272245  after bushfires national park reopens
+        Keywords emergentes: (nenhuma)
+6       0.2500    481519  factory foods national reopens riverland
+        Keywords emergentes: (nenhuma)
+7       0.2500    1178561 eastern germany killed shooting synagogue
+        Keywords emergentes: (nenhuma)
+8       0.2500    520523  after blaze national park reopens
+        Keywords emergentes: (nenhuma)
+9       0.2222    45429   after bushfires january national park reopens
+        Keywords emergentes: (nenhuma)
+10      0.2222    938904  amid hopes national outback park reopens
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 81: mundine warns rabchenko of bigger beating
+Tokens : [ beating bigger mundine rabchenko warns ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    925418  beating bigger mundine rabchenko warns
+        Keywords emergentes: (nenhuma)
+2       0.2857    866386  bigger faster mundine stronger
+        Keywords emergentes: (nenhuma)
+3       0.2857    465136  bigger fish mundine victorious
+        Keywords emergentes: (nenhuma)
+4       0.2500    915792  against career fighting mundine rabchenko
+        Keywords emergentes: (nenhuma)
+5       0.2500    245737  higher imprisonment indigenous mundine warns
+        Keywords emergentes: (nenhuma)
+6       0.2222    42531   bigger possible qaeda strike than warns
+        Keywords emergentes: (nenhuma)
+7       0.2000    915619  anthony beats decision mundine rabchenko sergey split
+        Keywords emergentes: (nenhuma)
+8       0.2000    879554  mundine
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 82: sydney hangs tough to down phoenix
+Tokens : [ down hangs phoenix sydney tough ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    506656  down hangs phoenix sydney tough
+        Keywords emergentes: (nenhuma)
+2       0.3333    22643   fiery phoenix sydney
+        Keywords emergentes: (nenhuma)
+3       0.3333    662910  down phoenix reds
+        Keywords emergentes: (nenhuma)
+4       0.3333    305007  down malaysia sydney
+        Keywords emergentes: (nenhuma)
+5       0.3333    339600  down sydney touches
+        Keywords emergentes: (nenhuma)
+6       0.2857    691705  dictator down sydney touches
+        Keywords emergentes: (nenhuma)
+7       0.2857    639629  down jets sydney warm
+        Keywords emergentes: (nenhuma)
+8       0.2857    194750  close down sydney world
+        Keywords emergentes: (nenhuma)
+9       0.2857    664457  down goes hewitt sydney
+        Keywords emergentes: (nenhuma)
+10      0.2857    433873  arrests assaults down sydney
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 83: palestinian activists try peaceful protest action
+Tokens : [ action activists palestinian peaceful protest ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    653101  action activists palestinian peaceful protest
+        Keywords emergentes: (nenhuma)
+2       0.4286    18459   aceh action activists military protest
+        Keywords emergentes: (nenhuma)
+3       0.3333    1202876 peaceful protest training
+        Keywords emergentes: (nenhuma)
+4       0.3333    753022  action heating protest
+        Keywords emergentes: (nenhuma)
+5       0.2857    1174606 action brisbane protest queensland
+        Keywords emergentes: (nenhuma)
+6       0.2857    238167  activists bear london protest
+        Keywords emergentes: (nenhuma)
+7       0.2857    1202337 activists gather protest sydneys
+        Keywords emergentes: (nenhuma)
+8       0.2857    32695   activists animal cull protest
+        Keywords emergentes: (nenhuma)
+9       0.2857    1142045 activists kavanaugh nomination protest
+        Keywords emergentes: (nenhuma)
+10      0.2857    1172666 activists organise paso protest
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 84: nasa building evacuated after report of shot fired
+Tokens : [ after building evacuated fired nasa report shot ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    299501  after building evacuated fired nasa report shot
+        Keywords emergentes: (nenhuma)
+2       0.3750    744149  after crash fired shot
+        Keywords emergentes: (nenhuma)
+3       0.3333    150649  after building electrical evacuated fire
+        Keywords emergentes: (nenhuma)
+4       0.3333    17083   after building collapse evacuated partial
+        Keywords emergentes: (nenhuma)
+5       0.3333    71748   after baghdad building evacuated sniffer
+        Keywords emergentes: (nenhuma)
+6       0.3333    147583  after building csiro evacuated leak
+        Keywords emergentes: (nenhuma)
+7       0.3333    280867  after fired redfern scoured shot
+        Keywords emergentes: (nenhuma)
+8       0.3000    220132  after custody during fight fired shot
+        Keywords emergentes: (nenhuma)
+9       0.3000    563605  after building evacuated hospital spill toxic
+        Keywords emergentes: (nenhuma)
+10      0.3000    910326  after delivery driver fired pizza shot
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 85: fairbairn to host new esa base
+Tokens : [ base fairbairn host ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    206912  base fairbairn host
+        Keywords emergentes: (nenhuma)
+2       0.3333    166573  base defence host mega townsville
+        Keywords emergentes: (nenhuma)
+3       0.2500    127742  base european
+        Keywords emergentes: (nenhuma)
+4       0.2500    450298  host mildura
+        Keywords emergentes: (nenhuma)
+5       0.2500    88192   base voice
+        Keywords emergentes: (nenhuma)
+6       0.2500    303773  host singapore
+        Keywords emergentes: (nenhuma)
+7       0.2500    700929  canberra host
+        Keywords emergentes: (nenhuma)
+8       0.2500    398182  host townsville
+        Keywords emergentes: (nenhuma)
+9       0.2500    998331  base griffith
+        Keywords emergentes: (nenhuma)
+10      0.2500    707550  brisbane host
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 86: snowy hydro snub short sighted
+Tokens : [ hydro short sighted snowy snub ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    502910  hydro short sighted snowy snub
+        Keywords emergentes: (nenhuma)
+2       0.4286    573189  high school short sighted snub
+        Keywords emergentes: (nenhuma)
+3       0.4000    1154419 hydro snowy
+        Keywords emergentes: (nenhuma)
+4       0.3750    679258  booth polling says short sighted snub
+        Keywords emergentes: (nenhuma)
+5       0.3333    909104  hydro release snowy
+        Keywords emergentes: (nenhuma)
+6       0.2857    109336  decision dolphins short sighted
+        Keywords emergentes: (nenhuma)
+7       0.2857    414131  climate priority short sighted
+        Keywords emergentes: (nenhuma)
+8       0.2857    239055  hydro sell snowy vows
+        Keywords emergentes: (nenhuma)
+9       0.2857    535514  budget health short sighted
+        Keywords emergentes: (nenhuma)
+10      0.2857    339730  motorbike parking short sighted
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 87: echinacea hardly helps study
+Tokens : [ echinacea hardly helps study ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    54290   echinacea hardly helps study
+        Keywords emergentes: (nenhuma)
+2       0.2857    68154   helps lakes rain revive study
+        Keywords emergentes: (nenhuma)
+3       0.2857    58738   cold comfort echinacea kids study
+        Keywords emergentes: (nenhuma)
+4       0.2857    272708  aids helps malaria spread study
+        Keywords emergentes: (nenhuma)
+5       0.2500    845797  study
+        Keywords emergentes: (nenhuma)
+6       0.2500    1047837 dementia finds helps people study with
+        Keywords emergentes: (nenhuma)
+7       0.2500    1048038 dementia finds helps people study with
+        Keywords emergentes: (nenhuma)
+8       0.2500    1153879 depression exercise finds helps prevent study
+        Keywords emergentes: (nenhuma)
+9       0.2500    878289  study
+        Keywords emergentes: (nenhuma)
+10      0.2500    330133  collaboration finds greater helps medical study
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 88: bbc cans neighbours
+Tokens : [ cans neighbours ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    305295  cans neighbours
+        Keywords emergentes: (nenhuma)
+2       0.3333    813223  beer cans
+        Keywords emergentes: (nenhuma)
+3       0.3333    850562  junee neighbours
+        Keywords emergentes: (nenhuma)
+4       0.2500    645633  cans cash recycling
+        Keywords emergentes: (nenhuma)
+5       0.2500    107244  cans licence psychics
+        Keywords emergentes: (nenhuma)
+6       0.2500    663919  neighbours threatened with
+        Keywords emergentes: (nenhuma)
+7       0.2500    1052830 neighbours rate tuberculosis
+        Keywords emergentes: (nenhuma)
+8       0.2500    809821  cans pacific sale
+        Keywords emergentes: (nenhuma)
+9       0.2500    248252  neighbours rivals showdown
+        Keywords emergentes: (nenhuma)
+10      0.2500    284412  keeping lions neighbours
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 89: nsw taxes put the championships in jeopardy
+Tokens : [ championships jeopardy taxes ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    875920  championships jeopardy taxes
+        Keywords emergentes: (nenhuma)
+2       0.3333    902438  championships
+        Keywords emergentes: (nenhuma)
+3       0.2500    336026  jeopardy opportunities
+        Keywords emergentes: (nenhuma)
+4       0.2500    490353  championships gurning
+        Keywords emergentes: (nenhuma)
+5       0.2500    912605  championships hunting
+        Keywords emergentes: (nenhuma)
+6       0.2500    1216901 taxes trump
+        Keywords emergentes: trump 
+7       0.2500    935050  championships country
+        Keywords emergentes: (nenhuma)
+8       0.2500    908946  championships retrieval
+        Keywords emergentes: (nenhuma)
+9       0.2500    758371  jeopardy jerrys
+        Keywords emergentes: (nenhuma)
+10      0.2500    49662   championships netball
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 90: ratepayers reax
+Tokens : [ ratepayers reax ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    954295  ratepayers reax
+        Keywords emergentes: (nenhuma)
+2       0.5000    955848  reax
+        Keywords emergentes: (nenhuma)
+3       0.5000    845613  reax
+        Keywords emergentes: (nenhuma)
+4       0.5000    994663  reax
+        Keywords emergentes: (nenhuma)
+5       0.5000    988933  reax
+        Keywords emergentes: (nenhuma)
+6       0.5000    982249  reax
+        Keywords emergentes: (nenhuma)
+7       0.5000    750237  reax
+        Keywords emergentes: (nenhuma)
+8       0.5000    802287  reax
+        Keywords emergentes: (nenhuma)
+9       0.5000    950579  reax
+        Keywords emergentes: (nenhuma)
+10      0.5000    916301  reax
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 91: new royal adelaide hospital to struggle with demand liberals say
+Tokens : [ adelaide demand hospital liberals royal struggle with ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1069816 adelaide demand hospital liberals royal struggle with
+        Keywords emergentes: (nenhuma)
+2       0.3750    1072691 adelaide hospital royal tour
+        Keywords emergentes: (nenhuma)
+3       0.3636    1067087 adelaide from hospital issues plagued royal start with
+        Keywords emergentes: (nenhuma)
+4       0.3333    1128059 adelaide blackout hospital report royal
+        Keywords emergentes: (nenhuma)
+5       0.3333    1114992 adelaide equipment hospital royal surplus
+        Keywords emergentes: (nenhuma)
+6       0.3333    706787  adelaide hospital royal site webcam
+        Keywords emergentes: (nenhuma)
+7       0.3333    1097392 adelaide ambulances hospital ramped royal
+        Keywords emergentes: (nenhuma)
+8       0.3333    1128460 adelaide become hospital innovation royal
+        Keywords emergentes: (nenhuma)
+9       0.3333    967363  adelaide claim contamination hospital royal
+        Keywords emergentes: (nenhuma)
+10      0.3333    1060667 adelaide builder hospital royal speaks
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 92: outspoken journalist sprayed with acid
+Tokens : [ acid journalist outspoken sprayed with ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    589121  acid journalist outspoken sprayed with
+        Keywords emergentes: (nenhuma)
+2       0.3333    597101  argue journalist with
+        Keywords emergentes: (nenhuma)
+3       0.2857    90412   china jails journalist outspoken
+        Keywords emergentes: (nenhuma)
+4       0.2500    837675  caijing journalist leaves magazine outspoken
+        Keywords emergentes: (nenhuma)
+5       0.2500    578863  bullets home sprayed sydney with
+        Keywords emergentes: (nenhuma)
+6       0.2500    315783  family journalist kidnapped reunited with
+        Keywords emergentes: (nenhuma)
+7       0.2500    493053  disinfectant padang ruins sprayed with
+        Keywords emergentes: (nenhuma)
+8       0.2500    811145  cairo journalist speaks with world
+        Keywords emergentes: (nenhuma)
+9       0.2222    472045  acid attack attempted charged murder with
+        Keywords emergentes: (nenhuma)
+10      0.2222    603737  bullets house sprayed sydneys west with
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 93: scientists find earthquakes help form gold deposits
+Tokens : [ deposits earthquakes find form gold help scientists ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    771819  deposits earthquakes find form gold help scientists
+        Keywords emergentes: (nenhuma)
+2       0.3000    10113   copper deposits find gold hopes miner
+        Keywords emergentes: (nenhuma)
+3       0.3000    393123  avert coral find help reef scientists
+        Keywords emergentes: (nenhuma)
+4       0.2727    214695  australian earth find help like planet scientists
+        Keywords emergentes: (nenhuma)
+5       0.2727    370067  asked coast find gold help missing public
+        Keywords emergentes: (nenhuma)
+6       0.2500    1009208 australian copper deposits exploration find help method tool
+        Keywords emergentes: (nenhuma)
+7       0.2222    140306  help jewfish scientists understand
+        Keywords emergentes: (nenhuma)
+8       0.2222    420495  cells find scientists switch
+        Keywords emergentes: (nenhuma)
+9       0.2222    414620  find rare scientists shark
+        Keywords emergentes: (nenhuma)
+10      0.2222    905530  find form league victory
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 94: suicide truck bomber kills 15 in northern iraq
+Tokens : [ bomber iraq kills northern suicide truck ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    827092  bomber iraq kills northern suicide truck
+        Keywords emergentes: (nenhuma)
+2       0.8333    178920  bomber iraq kills northern suicide
+        Keywords emergentes: (nenhuma)
+3       0.8333    400126  bomber iraq kills northern suicide
+        Keywords emergentes: (nenhuma)
+4       0.8333    312282  bomber iraq kills suicide truck
+        Keywords emergentes: (nenhuma)
+5       0.8333    82521   bomber iraq kills northern suicide
+        Keywords emergentes: (nenhuma)
+6       0.6667    434379  bomber iraq kills suicide
+        Keywords emergentes: (nenhuma)
+7       0.6667    142506  bomber iraq kills suicide
+        Keywords emergentes: (nenhuma)
+8       0.6667    370814  bomber iraq kills suicide
+        Keywords emergentes: (nenhuma)
+9       0.6667    419070  bomber iraq kills suicide
+        Keywords emergentes: (nenhuma)
+10      0.6667    177027  bomber iraq kills suicide
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 95: png hunters in the thick of it as the battle for
+Tokens : [ battle hunters thick ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1035397 battle hunters thick
+        Keywords emergentes: (nenhuma)
+2       0.3333    1085952 battle
+        Keywords emergentes: (nenhuma)
+3       0.3333    1027014 battle hackers hunters malware stop
+        Keywords emergentes: (nenhuma)
+4       0.3333    82310   battle
+        Keywords emergentes: (nenhuma)
+5       0.3333    769677  hunters
+        Keywords emergentes: (nenhuma)
+6       0.3333    1161247 battle
+        Keywords emergentes: (nenhuma)
+7       0.2500    1162211 battle chisholm
+        Keywords emergentes: (nenhuma)
+8       0.2500    1057529 battle bush
+        Keywords emergentes: (nenhuma)
+9       0.2500    687302  smoke thick
+        Keywords emergentes: (nenhuma)
+10      0.2500    1111276 hunters mammoth
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 96: orange records first coronavirus case since april
+Tokens : [ april case coronavirus first orange records since ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    1208398 april case coronavirus first orange records since
+        Keywords emergentes: coronavirus 
+2       0.4286    1229792 case coronavirus records
+        Keywords emergentes: coronavirus 
+3       0.4000    1201700 case coronavirus first month more records than
+        Keywords emergentes: coronavirus 
+4       0.4000    1212425 case coronavirus covid first indonesia month since
+        Keywords emergentes: coronavirus covid 
+5       0.3750    465832  case first records swine
+        Keywords emergentes: (nenhuma)
+6       0.3750    1194848 coronavirus death first records
+        Keywords emergentes: coronavirus 
+7       0.3750    1193089 case coronavirus records second
+        Keywords emergentes: coronavirus 
+8       0.3750    1208404 case coronavirus queensland records
+        Keywords emergentes: coronavirus 
+9       0.3636    1226027 african case coronavirus first queensland records south strain
+        Keywords emergentes: coronavirus 
+10      0.3333    1196053 case confirmed coronavirus records victoria
+        Keywords emergentes: coronavirus 
+======================================================================
+
+Titulo 97: labor flags change to arts policy
+Tokens : [ arts change flags labor policy ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    117508  arts change flags labor policy
+        Keywords emergentes: (nenhuma)
+2       0.5000    668086  change council flags policy
+        Keywords emergentes: (nenhuma)
+3       0.5000    1157352 change climate labor policy
+        Keywords emergentes: (nenhuma)
+4       0.4286    246357  change council flags policy reluctance
+        Keywords emergentes: (nenhuma)
+5       0.4000    720536  change policy
+        Keywords emergentes: (nenhuma)
+6       0.3750    343026  announces arts boosts funding labor policy
+        Keywords emergentes: (nenhuma)
+7       0.3750    1164812 arts image labor policy uncredited uses
+        Keywords emergentes: (nenhuma)
+8       0.3333    115465  announces labor policy
+        Keywords emergentes: (nenhuma)
+9       0.3333    704395  change labor name
+        Keywords emergentes: (nenhuma)
+10      0.3333    668397  change could labor lead policy race uranium
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 98: newton in court on assault charges
+Tokens : [ assault charges court newton ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    280066  assault charges court newton
+        Keywords emergentes: (nenhuma)
+2       0.6000    723635  assault charges court sexual
+        Keywords emergentes: (nenhuma)
+3       0.6000    669144  assault cabbie court newton
+        Keywords emergentes: (nenhuma)
+4       0.6000    275168  appear assault charges court
+        Keywords emergentes: (nenhuma)
+5       0.6000    16959   assault charges court face
+        Keywords emergentes: (nenhuma)
+6       0.6000    24590   assault charges court kidnap
+        Keywords emergentes: (nenhuma)
+7       0.6000    487324  assault charges court teacher
+        Keywords emergentes: (nenhuma)
+8       0.5000    354410  assault charges child court sexual
+        Keywords emergentes: (nenhuma)
+9       0.5000    473198  assault charges court policeman theft
+        Keywords emergentes: (nenhuma)
+10      0.5000    713452  assault charges court faces over
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 99: police foil kidnap plot
+Tokens : [ foil kidnap plot police ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    152939  foil kidnap plot police
+        Keywords emergentes: (nenhuma)
+2       0.6000    255005  foil plot police terrorist
+        Keywords emergentes: (nenhuma)
+3       0.5000    255004  foil plane plot police terrorism
+        Keywords emergentes: (nenhuma)
+4       0.5000    100121  bomb foil philippines plot police
+        Keywords emergentes: (nenhuma)
+5       0.5000    255003  bomb foil plane plot police
+        Keywords emergentes: (nenhuma)
+6       0.4286    780829  blow canadian foil plot police train
+        Keywords emergentes: (nenhuma)
+7       0.4286    578635  bomb ceremony christmas foil plot police
+        Keywords emergentes: (nenhuma)
+8       0.4286    85946   bomb foil plot police suicide trafford
+        Keywords emergentes: (nenhuma)
+9       0.4286    283303  behead british foil kidnap police suspected
+        Keywords emergentes: (nenhuma)
+10      0.4286    583272  british christmas foil plot police terrorism
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Titulo 100: govt clarifies foundation funding
+Tokens : [ clarifies foundation funding govt ]
+----------------------------------------------------------------------
+RANK    JACCARD   ID      MANCHETE
+----------------------------------------------------------------------
+1       1.0000    477195  clarifies foundation funding govt
+        Keywords emergentes: (nenhuma)
+2       0.4000    685330  extra funding govt
+        Keywords emergentes: (nenhuma)
+3       0.4000    674004  election funding govt
+        Keywords emergentes: (nenhuma)
+4       0.4000    427294  coag funding govt
+        Keywords emergentes: (nenhuma)
+5       0.4000    256130  defends funding govt
+        Keywords emergentes: (nenhuma)
+6       0.4000    846331  foundation funding sammy
+        Keywords emergentes: (nenhuma)
+7       0.4000    170279  funding govt review
+        Keywords emergentes: (nenhuma)
+8       0.3333    321961  autism foundation govt support
+        Keywords emergentes: (nenhuma)
+9       0.3333    309324  apprenticeship boosts funding govt
+        Keywords emergentes: (nenhuma)
+10      0.3333    69368   airline funding govt says
+        Keywords emergentes: (nenhuma)
+======================================================================
+
+Total de titulos processados: 100

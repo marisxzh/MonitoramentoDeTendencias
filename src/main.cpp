@@ -11,7 +11,6 @@
 using namespace std;
 using namespace chrono;
 
-// Redireciona cout para um stream qualquer durante a função, depois restaura
 template<typename S, typename F>
 static void executarRedirecionado(S& destino, F funcao) {
     streambuf* bufOriginal = cout.rdbuf(destino.rdbuf());
@@ -24,8 +23,8 @@ static void imprimirTempo(const string& etapa, long long ms) {
 }
 
 int main(int argc, char* argv[]) {
-    string nomeArquivo = (argc >= 2) ? argv[1] : "dados/input.csv";
-    int linhaConsulta  = (argc >= 3) ? stoi(argv[2]) : 28;
+    string nomeArquivo    = (argc >= 2) ? argv[1] : "dados/input.csv";
+    string arquivoTitulos = (argc >= 3) ? argv[2] : "dados/titulos.txt";
 
     ofstream saida("output.txt");
     if (!saida.is_open()) {
@@ -34,40 +33,40 @@ int main(int argc, char* argv[]) {
     }
 
     cout << "=== Monitoramento de Tendencias ===\n";
-    cout << "Arquivo : " << nomeArquivo << "\n";
-    cout << "Consulta: linha " << linhaConsulta << "\n\n";
+    cout << "Corpus  : " << nomeArquivo << "\n";
+    cout << "Titulos : " << arquivoTitulos << "\n\n";
 
     AnalisadorDeNoticias analisador;
 
-    // Etapa 1: leitura
+    // Etapa 1: leitura e indexacao
     auto t0 = high_resolution_clock::now();
     LerArquivo::lerTexto(nomeArquivo, analisador);
     auto t1 = high_resolution_clock::now();
     imprimirTempo("Leitura e indexacao", duration_cast<milliseconds>(t1 - t0).count());
 
-    // lixeira: descarta o output das etapas 2 e 3 (não vão pro terminal nem pro arquivo)
+    // lixeira: descarta output das etapas internas (nao vao pro terminal nem pro arquivo)
     ostringstream lixeira;
 
-    // Etapa 2: Top 100 frequentes
+    // Etapa 2: Top 100 frequentes (necessario internamente, descartado do terminal)
     cout << "Gerando Top 100 frequentes...\n";
     auto t2 = high_resolution_clock::now();
     executarRedirecionado(lixeira, [&]() { analisador.gerarTop100Frequentes(); });
     auto t3 = high_resolution_clock::now();
     imprimirTempo("Top 100 frequentes", duration_cast<milliseconds>(t3 - t2).count());
 
-    // Etapa 3: Top 100 emergentes
+    // Etapa 3: Top 100 emergentes (necessario para cruzamento, descartado do terminal)
     cout << "Gerando Top 100 emergentes...\n";
     auto t4 = high_resolution_clock::now();
     executarRedirecionado(lixeira, [&]() { analisador.gerarTop100Emergentes(); });
     auto t5 = high_resolution_clock::now();
     imprimirTempo("Top 100 emergentes", duration_cast<milliseconds>(t5 - t4).count());
 
-    // Etapa 4: Similaridade — vai pro output.txt
-    cout << "Calculando similaridade para linha " << linhaConsulta << "...\n";
+    // Etapa 4: Similaridade por arquivo de titulos — resultado vai pro output.txt
+    cout << "Calculando similaridade por titulos...\n";
     auto t6 = high_resolution_clock::now();
-    executarRedirecionado(saida, [&]() { analisador.encontrarTop10Similares(linhaConsulta); });
+    analisador.encontrarSimilaresPorTitulos(arquivoTitulos, saida);
     auto t7 = high_resolution_clock::now();
-    imprimirTempo("Similaridade Jaccard", duration_cast<milliseconds>(t7 - t6).count());
+    imprimirTempo("Similaridade por titulos", duration_cast<milliseconds>(t7 - t6).count());
 
     long long total = duration_cast<milliseconds>(t7 - t0).count();
     cout << "\nTempo total : " << fixed << setprecision(2) << total / 1000.0 << "s\n";

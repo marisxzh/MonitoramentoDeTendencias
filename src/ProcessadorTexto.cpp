@@ -5,7 +5,9 @@ using namespace std;
 
 void ProcessadorTexto::limparTexto(const string& linha, size_t posicaoInicial, vector<string>& palavrasDeSaida){
 
-    string palavraAtual = "";
+    // declarada fora do loop: evita realocar a string a cada iteração
+    string palavraAtual;
+    palavraAtual.reserve(32);
 
     for (size_t i = posicaoInicial; i < linha.size(); ++i) {
         char c = linha[i];
@@ -13,14 +15,15 @@ void ProcessadorTexto::limparTexto(const string& linha, size_t posicaoInicial, v
         // se o caractere for alfabético, adiciona à palavra atual
         if (isalpha(c)) {
             // converte para minúscula
-            palavraAtual += tolower(c);
-             
+            palavraAtual += (char)tolower(c);
+
         } else {
-            if(palavraAtual.length() > 3){
+            if (palavraAtual.length() > 3) {
                 // adiciona a palavra ao vetor de saída
                 palavrasDeSaida.push_back(palavraAtual);
             }
-            palavraAtual = ""; // limpa a palavra atual para a próxima
+            // clear() mantém a memória alocada, evitando nova alocação
+            palavraAtual.clear();
         }
     }
 

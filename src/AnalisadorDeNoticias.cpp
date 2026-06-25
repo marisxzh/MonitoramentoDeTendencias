@@ -6,6 +6,7 @@
 #include <sstream>
 
 #include "AnalisadorDeNoticias.hpp"
+#include "ProcessadorTexto.hpp"
 
 using namespace std;
 
@@ -59,6 +60,11 @@ void AnalisadorDeNoticias::gerarTop100Emergentes() {
     }
 
     top100Emergentes = top100Heap.getSorted();
+
+    setEmergentes.clear();
+    for (const auto& e : top100Emergentes) {
+        setEmergentes.insert(e.palavra);
+    }
 
     cout << "\n[TOP-100 PALAVRAS EMERGENTES - C(p) = (FJ5 - FJ1) / (FJ1 + 1)]\n";
     cout << string(60, '-') << "\n";
@@ -181,3 +187,130 @@ void AnalisadorDeNoticias::encontrarTop10Similares(int idAlvo) {
 }
 
 //?fim pedro
+
+// Lê um .txt com títulos (um por linha), tokeniza cada um com ProcessadorTexto
+// e imprime no stream 'saida' as manchetes mais similares do corpus via Jaccard.
+void AnalisadorDeNoticias::encontrarSimilaresPorTitulos(const string& arquivoTxt, ostream& saida) {
+
+    ifstream arquivo(arquivoTxt);
+    if (!arquivo.is_open()) {
+        saida << "Erro: nao foi possivel abrir o arquivo \"" << arquivoTxt << "\".\n";
+        return;
+    }
+
+
+    saida << "\n[ANALISE DE SIMILARIDADE POR ARQUIVO DE TITULOS]\n";
+    saida << string(70, '=') << "\n";
+
+    string linha;
+    int numTitulo = 0;
+
+    while (getline(arquivo, linha)) {
+        // Remove \r caso o arquivo seja CRLF
+        if (!linha.empty() && linha.back() == '\r') linha.pop_back();
+        if (linha.empty()) continue;
+
+        numTitulo++;
+
+        // Tokeniza o título usando o mesmo ProcessadorTexto do corpus
+        vector<string> palavras;
+        palavras.reserve(20);
+        ProcessadorTexto::limparTexto(linha, 0, palavras);
+
+        // Remove duplicatas (igual ao que é feito no LerArquivo)
+        sort(palavras.begin(), palavras.end());
+        palavras.erase(unique(palavras.begin(), palavras.end()), palavras.end());
+
+        saida << "\nTitulo " << numTitulo << ": " << linha << "\n";
+        saida << "Tokens : [ ";
+        for (const string& tok : palavras) saida << tok << " ";
+        saida << "]\n";
+        saida << string(70, '-') << "\n";
+
+        if (palavras.empty()) {
+            saida << "  Nenhum token util encontrado no titulo.\n";
+            saida << string(70, '=') << "\n";
+            continue;
+        }
+
+        // Conta interseccao com cada manchete candidata via indice invertido
+        unordered_map<int, int> contagemIntersecao;
+        for (const string& palavra : palavras) {
+            auto it = indiceInvertido.find(palavra);
+            if (it == indiceInvertido.end()) continue;
+            for (int outroId : it->second) {
+                contagemIntersecao[outroId]++;
+            }
+        }
+
+        const float THRESHOLD = 0.20f; // limiar mais suave para titulos externos
+        MinHeap top10Heap(10);
+
+        for (const auto& item : contagemIntersecao) {
+            int outroId    = item.first;
+            int intersecao = item.second;
+
+            const vector<string>& palavrasCandidato = manchetes[outroId].palavras;
+            int tamanhoUniao = (int)palavras.size()
+                             + (int)palavrasCandidato.size()
+                             - intersecao;
+
+            float jaccard = (float)intersecao / (float)tamanhoUniao;
+
+            if (jaccard >= THRESHOLD) {
+                top10Heap.insert(to_string(outroId), jaccard);
+            }
+        }
+
+        vector<HeapNode> top10 = top10Heap.getSorted();
+
+        if (top10.empty()) {
+            saida << "  Nenhuma manchete similar encontrada com Jaccard >= "
+                  << fixed << setprecision(2) << THRESHOLD << ".\n";
+        } else {
+            saida << left << setw(8) << "RANK"
+                  << setw(10) << "JACCARD"
+                  << setw(8)  << "ID"
+                  << "MANCHETE\n";
+            saida << string(70, '-') << "\n";
+
+            for (int i = 0; i < (int)top10.size(); i++) {
+                int id = stoi(top10[i].palavra);
+
+                // Reconstroi texto legivel a partir dos tokens
+                string texto;
+                for (const string& tok : manchetes[id].palavras) {
+                    if (!texto.empty()) texto += " ";
+                    texto += tok;
+                }
+
+                saida << left << setw(8) << (i + 1)
+                      << fixed << setprecision(4) << setw(10) << top10[i].pontuacao
+                      << setw(8) << id
+                      << texto << "\n";
+
+                // Keywords emergentes presentes nesta manchete
+                saida << "        Keywords emergentes: ";
+                bool achou = false;
+                for (const string& tok : manchetes[id].palavras) {
+                    if (setEmergentes.count(tok)) {
+                        saida << tok << " ";
+                        achou = true;
+                    }
+                }
+                if (!achou) saida << "(nenhuma)";
+                saida << "\n";
+            }
+        }
+
+        saida << string(70, '=') << "\n";
+    }
+
+    arquivo.close();
+
+    if (numTitulo == 0) {
+        saida << "  Arquivo vazio ou sem titulos validos.\n";
+    } else {
+        saida << "\nTotal de titulos processados: " << numTitulo << "\n";
+    }
+}

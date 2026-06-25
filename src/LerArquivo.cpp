@@ -79,10 +79,11 @@ void LerArquivo::lerTexto(const string& nomeArquivo, AnalisadorDeNoticias& anali
 
         // 2. Itera sobre o próprio vetor de palavras (que agora não tem duplicatas)
         for (const string& palavra : palavras) {
-            // Acessa o dicionário unificado uma ÚNICA vez por palavra!
-            analisador.dicionario[palavra].freqGlobal++;
-            analisador.dicionario[palavra].freqJanela[janelaAtual]++;
-            
+            // guarda referência: acessa o dicionário UMA vez por palavra (era 2x antes)
+            auto& estat = analisador.dicionario[palavra];
+            estat.freqGlobal++;
+            estat.freqJanela[janelaAtual]++;
+
             analisador.indiceInvertido[palavra].push_back((int)idAtual);
         }
 

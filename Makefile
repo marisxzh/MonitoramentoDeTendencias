@@ -1,5 +1,5 @@
 CXX      := g++
-CXXFLAGS := -O3
+CXXFLAGS := -std=c++17 -O3 -march=native
 LDFLAGS  := -lstdc++ -lm
 BUILD    := ./build
 OBJ_DIR  := $(BUILD)/objects
@@ -7,6 +7,9 @@ APP_DIR  := $(BUILD)/
 TARGET   := app
 INCLUDE  := -Iinclude/
 SRC      :=  $(wildcard src/*.cpp)
+
+INPUT   := dados/input.csv
+TITULOS := dados/titulos.txt
 
 OBJECTS := $(SRC:%.cpp=$(OBJ_DIR)/%.o)
 
@@ -37,4 +40,4 @@ clean:
 	-@rm -rvf $(APP_DIR)/*
 
 run:
-	./$(BUILD)/$(TARGET)
+	./$(BUILD)/$(TARGET) $(INPUT) $(TITULOS)
