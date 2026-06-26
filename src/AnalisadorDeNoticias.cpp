@@ -243,7 +243,7 @@ void AnalisadorDeNoticias::encontrarSimilaresPorTitulos(const string& arquivoTxt
             }
         }
 
-        const float THRESHOLD = 0.20f; // limiar mais suave para titulos externos
+        const float THRESHOLD = 0.70f;
         MinHeap top10Heap(10);
 
         for (const auto& item : contagemIntersecao) {
@@ -257,7 +257,7 @@ void AnalisadorDeNoticias::encontrarSimilaresPorTitulos(const string& arquivoTxt
 
             float jaccard = (float)intersecao / (float)tamanhoUniao;
 
-            if (jaccard >= THRESHOLD) {
+            if (jaccard <= THRESHOLD) {
                 top10Heap.insert(to_string(outroId), jaccard);
             }
         }
@@ -265,7 +265,7 @@ void AnalisadorDeNoticias::encontrarSimilaresPorTitulos(const string& arquivoTxt
         vector<HeapNode> top10 = top10Heap.getSorted();
 
         if (top10.empty()) {
-            saida << "  Nenhuma manchete similar encontrada com Jaccard >= "
+            saida << "  Nenhuma manchete similar encontrada com Jaccard <= "
                   << fixed << setprecision(2) << THRESHOLD << ".\n";
         } else {
             saida << left << setw(8) << "RANK"
