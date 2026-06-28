@@ -56,6 +56,7 @@ Na primeira etapa, o corpus é lido e todas as estruturas de dados são constru�
 │   └── ProcessadorTexto.cpp
 ├── output.txt       # Arquivo de saída gerado a cada execução
 └── Makefile
+└── README.md
 ```
 
 &nbsp;
