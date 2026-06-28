@@ -44,7 +44,6 @@ int main(int argc, char* argv[]) {
     auto t1 = high_resolution_clock::now();
     imprimirTempo("Leitura e indexacao", duration_cast<milliseconds>(t1 - t0).count());
 
-    // lixeira: descarta output das etapas internas (nao vao pro terminal nem pro arquivo)
     ostringstream lixeira;
 
     // Etapa 2: Top 100 frequentes (necessario internamente, descartado do terminal)
