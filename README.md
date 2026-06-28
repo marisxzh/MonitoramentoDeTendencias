@@ -1,3 +1,6 @@
+<img width="1200" height="450" alt="image" src="https://github.com/user-attachments/assets/92b1e7a0-6fd5-46bc-a310-ea9342867017" />
+
+
 # Monitoramento de Tendências em Manchetes de Notícias
 
 Sistema de análise de grandes volumes de dados textuais desenvolvido para a disciplina de **Algoritmos e Estruturas de Dados I — CEFET-MG**. O sistema processa a base *A Million News Headlines* para identificar palavras frequentes, detectar termos emergentes ao longo do tempo e calcular a similaridade entre manchetes.
