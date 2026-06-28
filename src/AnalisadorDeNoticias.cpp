@@ -25,11 +25,9 @@ void AnalisadorDeNoticias::gerarTop100Frequentes() {
     MinHeap top100Heap(100);
 
     for (const auto& item : dicionario) {
-        // Acessa a freqGlobal dentro da nossa nova struct
         top100Heap.insert(item.first, (float)item.second.freqGlobal);
     }
 
-    //?fim pedro
     vector<HeapNode> top100 = top100Heap.getSorted();
 
     cout << "\n[TOP-100 PALAVRAS MAIS FREQUENTES]\n";
@@ -52,7 +50,6 @@ void AnalisadorDeNoticias::gerarTop100Emergentes() {
 
    for (const auto& item : dicionario) {
         const string& palavra = item.first;
-        // Pega direto da struct, sem usar map.count() ou map.at()
         float freq1 = item.second.freqJanela[0];
         float freq5 = item.second.freqJanela[4];
         float crescimento = (freq5 - freq1) / (freq1 + 1.0f);
@@ -98,17 +95,14 @@ void AnalisadorDeNoticias::encontrarTop10Similares(int idAlvo) {
         return;
     }
 
-    // Não criamos mais "unordered_set" aqui! Usamos o vetor ordenado diretamente.
     const vector<string>& palavrasAlvo = manchetes[idAlvo].palavras;
 
-    // Apenas para exibir a manchete alvo no relatório imprimindo os tokens puros
     cout << "  Manchete alvo (indice " << idAlvo << "): [ ";
     for (const string& tok : palavrasAlvo) cout << tok << " ";
     cout << "]\n\n";
 
     unordered_map<int, int> contagemIntersecao;
 
-    // Localiza os candidatos no Índice Invertido
     for (const string& palavra : palavrasAlvo) {
         auto it = indiceInvertido.find(palavra);
         if (it == indiceInvertido.end()) continue;
@@ -120,20 +114,14 @@ void AnalisadorDeNoticias::encontrarTop10Similares(int idAlvo) {
         }
     }
 
-    // Exigência do PDF do professor: Threshold de 70% (0.70)
     const float THRESHOLD = 0.70f;
     MinHeap top10Heap(10);
 
     for (const auto& item : contagemIntersecao) {
         int outroId    = item.first;
-        int intersecao = item.second; // Quantidade de palavras em comum
-
+        int intersecao = item.second; 
         const vector<string>& palavrasCandidato = manchetes[outroId].palavras;
-        
-        // Jaccard: Interseção / União.  União = |A| + |B| - Interseção
         int tamanhoUniao = (int)palavrasAlvo.size() + (int)palavrasCandidato.size() - intersecao;
-
-        // O verdadeiro Índice de Jaccard
         float jaccard = (float)intersecao / (float)tamanhoUniao;
 
         if (jaccard >= THRESHOLD) {
@@ -158,18 +146,15 @@ void AnalisadorDeNoticias::encontrarTop10Similares(int idAlvo) {
         for (const auto& no : top10) {
             int id = stoi(no.palavra);
             
-            // Imprime a pontuação e o ID
             cout << fixed << setprecision(4) << "Jaccard: " << no.pontuacao 
                  << " | ID: " << id << "\n";
             
-            // Imprime os tokens puros (atendendo à restrição de memória do PDF)
             cout << "Tokens: [ ";
             for (const string& tok : manchetes[id].palavras) {
                 cout << tok << " ";
             }
             cout << "]\n";
 
-            // Encontra e imprime as Keywords Emergentes NESTA manchete específica (Ação Integrada do PDF)
             cout << "Keywords (Emergentes): ";
             bool achouEmergente = false;
             for (const string& tok : manchetes[id].palavras) {
@@ -185,8 +170,6 @@ void AnalisadorDeNoticias::encontrarTop10Similares(int idAlvo) {
         }
     }
 }
-
-//?fim pedro
 
 // Lê um .txt com títulos (um por linha), tokeniza cada um com ProcessadorTexto
 // e imprime no stream 'saida' as manchetes mais similares do corpus via Jaccard.
@@ -206,18 +189,15 @@ void AnalisadorDeNoticias::encontrarSimilaresPorTitulos(const string& arquivoTxt
     int numTitulo = 0;
 
     while (getline(arquivo, linha)) {
-        // Remove \r caso o arquivo seja CRLF
         if (!linha.empty() && linha.back() == '\r') linha.pop_back();
         if (linha.empty()) continue;
 
         numTitulo++;
 
-        // Tokeniza o título usando o mesmo ProcessadorTexto do corpus
         vector<string> palavras;
         palavras.reserve(20);
         ProcessadorTexto::limparTexto(linha, 0, palavras);
 
-        // Remove duplicatas (igual ao que é feito no LerArquivo)
         sort(palavras.begin(), palavras.end());
         palavras.erase(unique(palavras.begin(), palavras.end()), palavras.end());
 
@@ -233,7 +213,6 @@ void AnalisadorDeNoticias::encontrarSimilaresPorTitulos(const string& arquivoTxt
             continue;
         }
 
-        // Conta interseccao com cada manchete candidata via indice invertido
         unordered_map<int, int> contagemIntersecao;
         for (const string& palavra : palavras) {
             auto it = indiceInvertido.find(palavra);
